@@ -15,7 +15,7 @@
 h1 {
     font-size: 3em;
     font-weight: bold;
-    margin: 1em;
+    margin: 0.5em;
 }
 
 h2 {
@@ -58,6 +58,7 @@ h2 {
 #name {
     color: blue;
     margin-bottom: 0.5em;
+    visibility: hidden;
 }
 
 .objectImage {
@@ -65,6 +66,18 @@ h2 {
     width:  300px;
     height: 200px;
     object-fit: cover;
+}
+
+#status {
+    margin-top: 0.5em;
+}
+
+.correct_answer {
+    color: green;
+}
+
+.wrong_answer {
+    color: red;
 }
 
 #imageNameInput {
@@ -98,7 +111,24 @@ h2 {
     color: yellow;
 }
 
-#name {
-  visibility: hidden;
+#nextButton {
+    display: none;
+    border: 2px solid gray;
+    background-color: white;
+    color: grey;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5% 10%;
+    margin-top: 10px;
+    font-size: 1.5em;
+    width: 5em;
 }
 
+#nextButton:hover {
+    background-color: gray;
+    color: white;
+}
+
+#nextButton:active {
+    background-color: darkgray;
+    color: yellow;
+}

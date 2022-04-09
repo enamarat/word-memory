@@ -72,12 +72,23 @@ const showExercise = (event) => {
 
 const changeImage = () => {
     if (count < chosenSection.length-1) {
-      count++;
-      document.querySelector("#imageContainer").innerHTML = `
-        <img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>
-      `;
-      document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
+        count++;
+        document.querySelector("#imageContainer").innerHTML = `
+        <img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>`;
+        document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
+    } else if (count == chosenSection.length-1)  {
+        chosenSection = "";
+        chosenCategory = "";
+        count = 0;
+        document.querySelector("#exercise").style.display = "none";
+        document.querySelector("#sections").style.display = "flex";
     }
+    // reset
+    document.querySelector("#imageNameInput").value = "";
+    document.querySelector("#status").textContent = "";
+    document.querySelector("#status").className = "";
+    document.querySelector("#checkButton").style.display = "block";
+    document.querySelector("#nextButton").style.display = "none";
 }
 
 
@@ -85,18 +96,21 @@ const checkExercise = () => {
     const userInput = document.querySelector("#imageNameInput").value.trim().toLowerCase().replace(/\s{2,}/g, " ");
     let answer = chosenSection[count].name;
     document.querySelector("#name").style.visibility = "visible";
-    console.log(userInput);
     
     if (answer == userInput) {
-        console.log("Correct!");
+        document.querySelector("#status").textContent = "CORRECT";
+        document.querySelector("#status").className = "correct_answer";
+        // next exercise
+        document.querySelector("#checkButton").style.display = "none";
+        document.querySelector("#nextButton").style.display = "block";
     } else {
-        console.log("Wrong");
+        document.querySelector("#status").textContent = "WRONG";
+        document.querySelector("#status").className = "wrong_answer";
     }
-
-    changeImage();
 }
 
 
 window.addEventListener("load", showSections);
 document.querySelector("#sections").addEventListener("click", showExercise);
 document.querySelector("#checkButton").addEventListener("click", checkExercise);
+document.querySelector("#nextButton").addEventListener("click", changeImage);
