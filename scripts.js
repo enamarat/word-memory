@@ -1,4 +1,15 @@
-const sections = ["Animals", "Insects", "Birds", "Fish", "Transport", "Furniture", "Dishes", "Fruit", "Vegetables", "Berries"];
+const sections = [
+    {english: "Animals", russian: "Животные"}, 
+    {english: "Insects", russian: "Насекомые"}, 
+    {english: "Birds", russian: "Птицы"}, 
+    {english: "Fish", russian: "Рыбы"}, 
+    {english: "Transport", russian: "Транспорт"}, 
+    {english: "Furniture", russian: "Мебель"}, 
+    {english: "Dishes", russian: "Посуда"}, 
+    {english: "Fruit", russian: "Фрукты"}, 
+    {english: "Vegetables", russian: "Овощи"}, 
+    {english: "Berries", russian: "Ягоды"}
+];
 const images = {
     animals: [
         {
@@ -171,32 +182,44 @@ const images = {
     ]
 };
 let chosenSection = "";
-let chosenCategory = "";
+let chosenCategory = {}
 let count = 0;
 let stage = "";
+let language = "English";
 
 
-const showSections = () => {
+const showSections = (language) => {
     let content = ``;
-    for (let i = 0; i < sections.length; i++) {
-        content += `<button class="sectionButton">${sections[i]}</button>`;
+    if (language == "english") {
+        content = `<h2>Sections</h2>`;
+    } else if (language == "russian") {
+        content = `<h2>Разделы</h2>`;
     }
-    document.querySelector("#sections").innerHTML += content;
+
+    for (let i = 0; i < sections.length; i++) {
+        content += `<button class="sectionButton" value=${sections[i].english} name=${sections[i].russian}>${sections[i][language]}</button>`;
+    }
+    document.querySelector("#sections").innerHTML = content;
 }
 
 
 const showExercise = (event) => {
    if (event.target.className == "sectionButton") {
     stage = "question";
-    chosenSection = images[event.target.textContent.toLowerCase()];
-    chosenCategory = event.target.textContent;
+    chosenSection = images[event.target.value.toLowerCase()];
+    chosenCategory.english = event.target.value;
+    chosenCategory.russian = event.target.name;
     document.querySelector("#sections").style.display = "none";
+    document.querySelector("#imageContainer").innerHTML = `<img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>`;
 
-    document.querySelector("#category").textContent = `${chosenCategory.toUpperCase()}`;
-    document.querySelector("#imageContainer").innerHTML = `
-        <img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>
-    `;
-    document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
+    if (language == "English") {
+        document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
+        document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
+    } else if (language == "Russian") {
+        document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
+        document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
+    }
+    
     document.querySelector("#exercise").style.display = "block";
     document.querySelector("#imageNameInput").focus();
    }
@@ -206,10 +229,14 @@ const showExercise = (event) => {
 const changeImage = () => {
     if (count < chosenSection.length-1) {
         count++;
-        document.querySelector("#imageContainer").innerHTML = `
-        <img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>`;
-        document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
         stage = "question";
+        document.querySelector("#imageContainer").innerHTML = `<img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>`;
+
+        if (language == "English") {
+            document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
+        } else if (language == "Russian") {
+            document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
+        }
     } else if (count == chosenSection.length-1)  {
         chosenSection = "";
         chosenCategory = "";
@@ -226,13 +253,17 @@ const changeImage = () => {
     document.querySelector("#name").style.visibility = "hidden";
     document.querySelector("#checkButton").style.display = "block";
     document.querySelector("#nextButton").style.display = "none";
-    //document.querySelector("#imageNameInput").focus();
 }
 
 
 const checkExercise = () => {
     const userInput = document.querySelector("#imageNameInput").value.trim().toLowerCase().replace(/\s{2,}/g, " ");
-    let answer = chosenSection[count].name;
+    let answer = null;
+    if (language == "English") {
+        answer = chosenSection[count].name;
+    } else if (language == "Russian") {
+        answer = chosenSection[count].nameRussian;
+    }
     document.querySelector("#name").style.visibility = "visible";
     
     if (answer == userInput) {
@@ -247,7 +278,6 @@ const checkExercise = () => {
         document.querySelector("#status").className = "wrong_answer";
         document.querySelector("#imageNameInput").value = "";
     }
-   // document.querySelector("#imageNameInput").blur();
 }
 
 
@@ -260,8 +290,33 @@ const changeExerciseWithKey = (event) => {
 }
 
 
-window.addEventListener("load", showSections);
+const changeLanguage = () => {
+    if (language == "English") {
+        language = "Russian";
+        document.querySelector("#language").textContent = "ENG";
+        showSections("russian");
+        
+        if (stage == "question" || stage == "questionAccepted") {
+            document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
+            document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
+        }
+    } else if (language == "Russian") {
+        language = "English";
+        document.querySelector("#language").textContent = "RUS";
+        showSections("english");
+
+        if (stage == "question" || stage == "questionAccepted") {
+            document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
+            document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`; 
+        }
+    }
+}
+
+
+window.addEventListener("load", ()=> showSections("english"));
+window.addEventListener("keypress", changeExerciseWithKey);
 document.querySelector("#sections").addEventListener("click", showExercise);
 document.querySelector("#checkButton").addEventListener("click", checkExercise);
 document.querySelector("#nextButton").addEventListener("click", changeImage);
-window.addEventListener("keypress", changeExerciseWithKey);
+document.querySelector("#language").addEventListener("click", changeLanguage);
+

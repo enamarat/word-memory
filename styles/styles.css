@@ -23,6 +23,17 @@ h2 {
     font-weight: bold;
 }
 
+/* Header */
+#language {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+#language:hover {
+    cursor: pointer;
+}
+
 /* Sections */
 .sectionButton {
     padding: 5px 10px 5px 10px;
