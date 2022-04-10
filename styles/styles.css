@@ -56,6 +56,10 @@ h2 {
     color: yellow;
 }
 
+.sectionButton:last-child {
+    margin-bottom: 0.5em;
+}
+
 /* Exercise */
 #exercise {
     display: none;

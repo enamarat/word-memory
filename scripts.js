@@ -9,7 +9,9 @@ const sections = [
     {english: "Dishes", russian: "Посуда"}, 
     {english: "Fruit", russian: "Фрукты"}, 
     {english: "Vegetables", russian: "Овощи"}, 
-    {english: "Berries", russian: "Ягоды"}
+    {english: "Berries", russian: "Ягоды"},
+    {english: "Clothes", russian: "Одежда"},
+    {english: "Shoes", russian: "Обувь"},
 ];
 const images = {
     animals: [
@@ -152,7 +154,12 @@ const images = {
             name: "white bear",
             nameRussian: "белый медведь",
             source: "./images/animals/whiteBear.jpg"
-        }
+        },
+        {
+            name: "rat",
+            nameRussian: "крыса",
+            source: "./images/animals/rat.jpg"
+        },
     ],
     insects: [
         {
@@ -195,6 +202,11 @@ const images = {
             nameRussian: "кузнечик",
             source: "./images/insects/grasshoper.jpg"
         },
+        {
+            name: "ladybug",
+            nameRussian: "божья коровка",
+            source: "./images/insects/ladybug.jpg"
+        },
     ],
     reptiles: [
         {
@@ -219,28 +231,496 @@ const images = {
         }
     ],
     birds: [
-
+        {
+            name: "chicken",
+            nameRussian: "курица",
+            source: "./images/birds/chicken.jpg"
+        },
+        {
+            name: "rooster",
+            nameRussian: "петух",
+            source: "./images/birds/rooster.jpg"
+        },
+        {
+            name: "sparrow",
+            nameRussian: "воробей",
+            source: "./images/birds/sparrow.jpg"
+        },
+        {
+            name: "hoodedCrow",
+            nameRussian: "ворона",
+            source: "./images/birds/hoodedCrow.jpg"
+        },
+        {
+            name: "pigeon",
+            nameRussian: "голубь",
+            source: "./images/birds/pigeon.jpg"
+        },
+        {
+            name: "duck",
+            nameRussian: "утка",
+            source: "./images/birds/duck.jpg"
+        },
+        {
+            name: "swallow",
+            nameRussian: "ласточка",
+            source: "./images/birds/swallow.jpg"
+        },
+        {
+            name: "gull",
+            nameRussian: "чайка",
+            source: "./images/birds/gull.jpg"
+        },
+        {
+            name: "pelican",
+            nameRussian: "пеликан",
+            source: "./images/birds/pelican.jpg"
+        },
+        {
+            name: "penguin",
+            nameRussian: "пингвин",
+            source: "./images/birds/penguin.jpg"
+        },
+        {
+            name: "wagtail",
+            nameRussian: "трясогузка",
+            source: "./images/birds/wagtail.jpg"
+        },
     ],
     fish: [
 
     ],
     transport: [
-
+        {
+            name: "boat",
+            nameRussian: "лодка",
+            source: "./images/transport/boat.jpg"
+        },
+        {
+            name: "rocket",
+            nameRussian: "ракета",
+            source: "./images/transport/rocket.jpg"
+        },
+        {
+            name: "submarine",
+            nameRussian: "подводная лодка",
+            source: "./images/transport/submarine.jpg"
+        },
+        {
+            name: "motorcycle",
+            nameRussian: "мотоцикл",
+            source: "./images/transport/motorcycle.jpg"
+        },
+        {
+            name: "ship",
+            nameRussian: "корабль",
+            source: "./images/transport/ship.jpg"
+        },
+        {
+            name: "bus",
+            nameRussian: "автобус",
+            source: "./images/transport/bus.jpg"
+        },
+        {
+            name: "truck",
+            nameRussian: "грузовик",
+            source: "./images/transport/truck.jpg"
+        },
+        {
+            name: "car",
+            nameRussian: "машина",
+            source: "./images/transport/car.jpg"
+        },
+        {
+            name: "train",
+            nameRussian: "поезд",
+            source: "./images/transport/train.jpg"
+        },
+        {
+            name: "scooter",
+            nameRussian: "самокат",
+            source: "./images/transport/scooter.jpg"
+        },
+        {
+            name: "plane",
+            nameRussian: "самолёт",
+            source: "./images/transport/plane.jpg"
+        },
+        {
+            name: "bicycle",
+            nameRussian: "велосипед",
+            source: "./images/transport/bicycle.jpg"
+        },
+        {
+            name: "helicopter",
+            nameRussian: "вертолёт",
+            source: "./images/transport/helicopter.jpg"
+        },
     ],
     furniture: [
-
+        {
+            name: "bed",
+            nameRussian: "кровать",
+            source: "./images/furniture/bed.jpg"
+        },
+        {
+            name: "sofa",
+            nameRussian: "диван",
+            source: "./images/furniture/sofa.jpg"
+        },
+        {
+            name: "cupboard",
+            nameRussian: "шкаф",
+            source: "./images/furniture/cupboard.jpg"
+        },
+        {
+            name: "armchair",
+            nameRussian: "кресло",
+            source: "./images/furniture/armchair.jpg"
+        },
+        {
+            name: "commode",
+            nameRussian: "комод",
+            source: "./images/furniture/commode.jpg"
+        },
+        {
+            name: "table",
+            nameRussian: "стол",
+            source: "./images/furniture/table.jpg"
+        },
+        {
+            name: "chair",
+            nameRussian: "стул",
+            source: "./images/furniture/chair.jpg"
+        },
     ],
     dishes: [
-
+        {
+            name: "pot",
+            nameRussian: "кастрюля",
+            source: "./images/dishes/pot.jpg"
+        },
+        {
+            name: "pan",
+            nameRussian: "сковорода",
+            source: "./images/dishes/pan.jpg"
+        },
+        {
+            name: "cup",
+            nameRussian: "чашка",
+            source: "./images/dishes/cup.jpg"
+        },
+        {
+            name: "jug",
+            nameRussian: "кувшин",
+            source: "./images/dishes/jug.jpg"
+        },
+        {
+            name: "bottle",
+            nameRussian: "бутылка",
+            source: "./images/dishes/bottle.jpg"
+        },
+        {
+            name: "glass",
+            nameRussian: "стакан",
+            source: "./images/dishes/glass.jpg"
+        },
+        {
+            name: "plate",
+            nameRussian: "тарелка",
+            source: "./images/dishes/plate.jpg"
+        },
+        {
+            name: "bowl",
+            nameRussian: "миска",
+            source: "./images/dishes/bowl.jpg"
+        },
+        {
+            name: "mug",
+            nameRussian: "кружка",
+            source: "./images/dishes/mug.jpg"
+        },
+        {
+            name: "kettle",
+            nameRussian: "чайник",
+            source: "./images/dishes/kettle.jpg"
+        },
+        {
+            name: "fork",
+            nameRussian: "вилка",
+            source: "./images/dishes/fork.jpg"
+        },
+        {
+            name: "knife",
+            nameRussian: "нож",
+            source: "./images/dishes/knife.jpg"
+        },
+        {
+            name: "spoon",
+            nameRussian: "ложка",
+            source: "./images/dishes/spoon.jpg"
+        },
+        {
+            name: "container",
+            nameRussian: "контейнер",
+            source: "./images/dishes/container.jpg"
+        },
     ],
     fruit: [
-
+        {
+            name: "pineapple",
+            nameRussian: "ананас",
+            source: "./images/fruit/pineapple.jpg"
+        },
+        {
+            name: "grapefruit",
+            nameRussian: "грейпфрут",
+            source: "./images/fruit/grapefruit.jpg"
+        },
+        {
+            name: "pear",
+            nameRussian: "груша",
+            source: "./images/fruit/pear.jpg"
+        },
+        {
+            name: "peach",
+            nameRussian: "персик",
+            source: "./images/fruit/peach.jpg"
+        },
+        {
+            name: "apricot",
+            nameRussian: "абрикос",
+            source: "./images/fruit/apricot.jpg"
+        },
+        {
+            name: "plum",
+            nameRussian: "слива",
+            source: "./images/fruit/plum.jpg"
+        },
+        {
+            name: "cherry",
+            nameRussian: "вишня",
+            source: "./images/fruit/cherry.jpg"
+        },
+        {
+            name: "melon",
+            nameRussian: "дыня",
+            source: "./images/fruit/melon.jpg"
+        },
+        {
+            name: "watermelon",
+            nameRussian: "арбуз",
+            source: "./images/fruit/watermelon.jpg"
+        },
+        {
+            name: "banana",
+            nameRussian: "банан",
+            source: "./images/fruit/banana.jpg"
+        },
+        {
+            name: "pomegranate",
+            nameRussian: "гранат",
+            source: "./images/fruit/pomegranate.jpg"
+        },
+        {
+            name: "apple",
+            nameRussian: "яблоко",
+            source: "./images/fruit/apple.jpg"
+        },
+        {
+            name: "lemon",
+            nameRussian: "лимон",
+            source: "./images/fruit/lemon.jpg"
+        },
+        {
+            name: "orange",
+            nameRussian: "апельсин",
+            source: "./images/fruit/orange.jpg"
+        },
+        {
+            name: "mandarine",
+            nameRussian: "мандарин",
+            source: "./images/fruit/mandarine.jpg"
+        },
+        {
+            name: "kiwi",
+            nameRussian: "киви",
+            source: "./images/fruit/kiwi.jpg"
+        },
+        {
+            name: "grape",
+            nameRussian: "виноград",
+            source: "./images/fruit/grape.jpg"
+        },
+        {
+            name: "strawberry",
+            nameRussian: "клубника",
+            source: "./images/fruit/strawberry.jpg"
+        }
     ],
     vegetables: [
-
+        {
+            name: "pepper",
+            nameRussian: "перец",
+            source: "./images/vegetables/pepper.jpg"
+        },
+        {
+            name: "pumpkin",
+            nameRussian: "тыква",
+            source: "./images/vegetables/pumpkin.jpg"
+        },
+        {
+            name: "carrot",
+            nameRussian: "морковь",
+            source: "./images/vegetables/carrot.jpg"
+        },
+        {
+            name: "potato",
+            nameRussian: "картофель",
+            source: "./images/vegetables/potato.jpg"
+        },
+        {
+            name: "cucumber",
+            nameRussian: "огурец",
+            source: "./images/vegetables/cucumber.jpg"
+        },
+        {
+            name: "tomato",
+            nameRussian: "помидор",
+            source: "./images/vegetables/tomato.jpg"
+        },
+        {
+            name: "cabbage",
+            nameRussian: "капуста",
+            source: "./images/vegetables/cabbage.jpg"
+        },
+        {
+            name: "onion",
+            nameRussian: "лук",
+            source: "./images/vegetables/onion.jpg"
+        },
+        {
+            name: "radish",
+            nameRussian: "редиска",
+            source: "./images/vegetables/radish.jpg"
+        },
+        {
+            name: "beet",
+            nameRussian: "свекла",
+            source: "./images/vegetables/beet.jpg"
+        },
     ],
     berries: [
 
+    ],
+    clothes: [
+        {
+            name: "cap",
+            nameRussian: "кепка",
+            source: "./images/clothes/cap.jpg"
+        },
+        {
+            name: "pants",
+            nameRussian: "штаны",
+            source: "./images/clothes/pants.jpg"
+        },
+        {
+            name: "hat",
+            nameRussian: "шапка",
+            source: "./images/clothes/hat.jpg"
+        },
+        {
+            name: "robe",
+            nameRussian: "халат",
+            source: "./images/clothes/robe.jpg"
+        },
+        {
+            name: "sweater",
+            nameRussian: "свитер",
+            source: "./images/clothes/sweater.jpg"
+        },
+        {
+            name: "sweatshirt",
+            nameRussian: "кофта",
+            source: "./images/clothes/sweatshirt.jpg"
+        },
+        {
+            name: "scarf",
+            nameRussian: "шарф",
+            source: "./images/clothes/scarf.jpg"
+        },
+        {
+            name: "underwear",
+            nameRussian: "трусы",
+            source: "./images/clothes/underwear.jpg"
+        },
+        {
+            name: "shirt",
+            nameRussian: "рубашка",
+            source: "./images/clothes/shirt.jpg"
+        },
+        {
+            name: "dress",
+            nameRussian: "платье",
+            source: "./images/clothes/dress.jpg"
+        },
+        {
+            name: "gloves",
+            nameRussian: "перчатки",
+            source: "./images/clothes/gloves.jpg"
+        },
+        {
+            name: "socks",
+            nameRussian: "носки",
+            source: "./images/clothes/socks.jpg"
+        },
+        {
+            name: "t-shirt",
+            nameRussian: "майка",
+            source: "./images/clothes/tshirt.jpg"
+        },
+        {
+            name: "jacket",
+            nameRussian: "куртка",
+            source: "./images/clothes/jacket.jpg"
+        },
+        {
+            name: "shorts",
+            nameRussian: "шорты",
+            source: "./images/clothes/shorts.jpg"
+        }
+    ],
+    shoes: [
+        {
+            name: "boots",
+            nameRussian: "сапоги",
+            source: "./images/shoes/boots.jpg"
+        },
+        {
+            name: "sneakers",
+            nameRussian: "кроссовки",
+            source: "./images/shoes/sneakers.jpg"
+        },
+        {
+            name: "blucher",
+            nameRussian: "туфли",
+            source: "./images/shoes/blucher.jpg"
+        },
+        {
+            name: "slippers",
+            nameRussian: "тапочки",
+            source: "./images/shoes/slippers.jpg"
+        },
+        {
+            name: "sandals",
+            nameRussian: "сандалии",
+            source: "./images/shoes/sandals.jpg"
+        },
+        {
+            name: "winterBoots",
+            nameRussian: "ботинки",
+            source: "./images/shoes/winterBoots.jpg"
+        }
     ]
 };
 let chosenSection = "";
