@@ -1,6 +1,7 @@
 const sections = [
     {english: "Animals", russian: "Животные"}, 
     {english: "Insects", russian: "Насекомые"}, 
+    {english: "Reptiles", russian: "Рептилии"}, 
     {english: "Birds", russian: "Птицы"}, 
     {english: "Fish", russian: "Рыбы"}, 
     {english: "Transport", russian: "Транспорт"}, 
@@ -154,7 +155,68 @@ const images = {
         }
     ],
     insects: [
-
+        {
+            name: "fly",
+            nameRussian: "муха",
+            source: "./images/insects/fly.jpg"
+        },
+        {
+            name: "butterfly",
+            nameRussian: "бабочка",
+            source: "./images/insects/butterfly.jpg"
+        },
+        {
+            name: "ant",
+            nameRussian: "муравей",
+            source: "./images/insects/ant.jpg"
+        },
+        {
+            name: "dragonfly",
+            nameRussian: "стрекоза",
+            source: "./images/insects/dragonfly.jpg"
+        },
+        {
+            name: "bee",
+            nameRussian: "пчела",
+            source: "./images/insects/bee.jpg"
+        },
+        {
+            name: "wasp",
+            nameRussian: "оса",
+            source: "./images/insects/wasp.jpg"
+        },
+        {
+            name: "mosquito",
+            nameRussian: "комар",
+            source: "./images/insects/mosquito.jpg"
+        },
+        {
+            name: "grasshoper",
+            nameRussian: "кузнечик",
+            source: "./images/insects/grasshoper.jpg"
+        },
+    ],
+    reptiles: [
+        {
+            name: "crocodile",
+            nameRussian: "крокодил",
+            source: "./images/reptiles/crocodile.jpg"
+        },
+        {
+            name: "lizzard",
+            nameRussian: "ящерица",
+            source: "./images/reptiles/lizzard.jpg"
+        },
+        {
+            name: "snake",
+            nameRussian: "змея",
+            source: "./images/reptiles/snake.jpg"
+        },
+        {
+            name: "turtle",
+            nameRussian: "черепаха",
+            source: "./images/reptiles/turtle.jpg"
+        }
     ],
     birds: [
 
@@ -239,7 +301,7 @@ const changeImage = () => {
         }
     } else if (count == chosenSection.length-1)  {
         chosenSection = "";
-        chosenCategory = "";
+        chosenCategory = {};
         count = 0;
         document.querySelector("#exercise").style.display = "none";
         document.querySelector("#sections").style.display = "flex";
