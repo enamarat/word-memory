@@ -64,12 +64,13 @@ h2 {
 .objectImage {
     border: 2px solid black;
     width:  300px;
-    height: 200px;
     object-fit: cover;
 }
 
 #status {
-    margin-top: 0.5em;
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
 
 .correct_answer {
@@ -82,13 +83,10 @@ h2 {
 
 #imageNameInput {
     margin: 0.5em;
-    text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
-    width: 60%;
-    min-width: 6em;
+    width: 400px;
 }
-
 
 #checkButton {
     border: 2px solid green;
@@ -131,4 +129,11 @@ h2 {
 #nextButton:active {
     background-color: darkgray;
     color: yellow;
+}
+
+/*** queries ***/
+@media screen and (max-width: 480px) {
+    #imageNameInput {
+        width: 75%;
+    }
 }
