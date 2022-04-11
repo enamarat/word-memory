@@ -67,7 +67,7 @@ h2 {
 
 #category {
     color: tomato;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 #name {
@@ -144,6 +144,31 @@ h2 {
 #nextButton:active {
     background-color: darkgray;
     color: yellow;
+}
+
+/** Container **/
+.horizontalContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.buttonContainer {
+    position: absolute;
+    top: 3px;
+    right: 15px;
+}
+
+#closeExerciseButton {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+#closeExerciseButton:hover {
+    background-color: blue;
+    color: white;
 }
 
 /*** queries ***/

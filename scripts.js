@@ -288,6 +288,46 @@ const images = {
             nameRussian: "трясогузка",
             source: "./images/birds/wagtail.jpg"
         },
+        {
+            name: "peacock",
+            nameRussian: "павлин",
+            source: "./images/birds/peacock.jpg"
+        },
+        {
+            name: "parrot",
+            nameRussian: "попугай",
+            source: "./images/birds/parrot.jpg"
+        },
+        {
+            name: "eagle",
+            nameRussian: "орёл",
+            source: "./images/birds/eagle.jpg"
+        },
+        {
+            name: "turkey",
+            nameRussian: "индюк",
+            source: "./images/birds/turkey.jpg"
+        },
+        {
+            name: "goose",
+            nameRussian: "гусь",
+            source: "./images/birds/goose.jpg"
+        },
+        {
+            name: "swan",
+            nameRussian: "лебедь",
+            source: "./images/birds/swan.jpg"
+        },
+        {
+            name: "flamingo",
+            nameRussian: "фламинго",
+            source: "./images/birds/flamingo.jpg"
+        },
+        {
+            name: "woodpecker",
+            nameRussian: "дятел",
+            source: "./images/birds/woodpecker.jpg"
+        }
     ],
     fish: [
         {
@@ -447,6 +487,11 @@ const images = {
             source: "./images/dishes/cup.jpg"
         },
         {
+            name: "mug",
+            nameRussian: "кружка",
+            source: "./images/dishes/mug.jpg"
+        },
+        {
             name: "jug",
             nameRussian: "кувшин",
             source: "./images/dishes/jug.jpg"
@@ -470,11 +515,6 @@ const images = {
             name: "bowl",
             nameRussian: "миска",
             source: "./images/dishes/bowl.jpg"
-        },
-        {
-            name: "mug",
-            nameRussian: "кружка",
-            source: "./images/dishes/mug.jpg"
         },
         {
             name: "kettle",
@@ -893,7 +933,57 @@ const images = {
         {
             name: "green",
             nameRussian: "зелёный",
-            source: "./images/colors/kettle.jpg"
+            source: "./images/colors/green.jpg"
+        },
+        {
+            name: "blue",
+            nameRussian: "синий",
+            source: "./images/colors/blue.jpg"
+        },
+        {
+            name: "red",
+            nameRussian: "красный",
+            source: "./images/colors/red.jpg"
+        },
+        {
+            name: "yellow",
+            nameRussian: "жёлтый",
+            source: "./images/colors/yellow.jpg"
+        },
+        {
+            name: "orange",
+            nameRussian: "оранжевый",
+            source: "./images/colors/orange.jpg"
+        },
+        {
+            name: "black",
+            nameRussian: "чёрный",
+            source: "./images/colors/black.jpg"
+        },
+        {
+            name: "brown",
+            nameRussian: "коричневый",
+            source: "./images/colors/brown.jpg"
+        },
+        {
+            name: "pink",
+            nameRussian: "розовый",
+            source: "./images/colors/pink.jpg"
+        },
+        {
+            name: "violet",
+            nameRussian: "фиолетовый",
+            source: "./images/colors/violet.jpg"
+        },
+        {
+            name: "gray",
+            nameRussian: "серый",
+            source: "./images/colors/gray.jpg"
+        },
+        {
+            name: "white",
+            nameRussian: "белый",
+            source: "./images/colors/white.jpg"
         },
     ]
 };
@@ -954,13 +1044,7 @@ const changeImage = () => {
             document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
         }
     } else if (count == chosenSection.length-1)  {
-        chosenSection = "";
-        chosenCategory = {};
-        count = 0;
-        document.querySelector("#exercise").style.display = "none";
-        document.querySelector("#sections").style.display = "flex";
-        document.querySelector("#category").textContent = "";
-        stage = "";
+        closeExercise();
     }
     // reset
     document.querySelector("#imageNameInput").value = "";
@@ -980,16 +1064,16 @@ const checkExercise = () => {
     } else if (language == "Russian") {
         answer = chosenSection[count].nameRussian;
     }
-    document.querySelector("#name").style.visibility = "visible";
     
     if (answer == userInput) {
         document.querySelector("#status").textContent = "CORRECT";
         document.querySelector("#status").className = "correct_answer";
+        document.querySelector("#name").style.visibility = "visible";
         // next exercise
         document.querySelector("#checkButton").style.display = "none";
         document.querySelector("#nextButton").style.display = "block";
         stage = "questionAccepted";
-        //setTimeout(() => changeImage(), 600);
+        changeImage();
     } else {
         document.querySelector("#status").textContent = "WRONG";
         document.querySelector("#status").className = "wrong_answer";
@@ -1030,10 +1114,21 @@ const changeLanguage = () => {
 }
 
 
+const closeExercise = () => {
+    document.querySelector("#exercise").style.display = "none";
+    document.querySelector("#sections").style.display = "flex";
+    document.querySelector("#category").textContent = "";
+    chosenSection = "";
+    chosenCategory = {}
+    count = 0;
+    stage = "";
+}
+
+
 window.addEventListener("load", ()=> showSections("english"));
 window.addEventListener("keypress", changeExerciseWithKey);
 document.querySelector("#sections").addEventListener("click", showExercise);
 document.querySelector("#checkButton").addEventListener("click", checkExercise);
 document.querySelector("#nextButton").addEventListener("click", changeImage);
 document.querySelector("#language").addEventListener("click", changeLanguage);
-
+document.querySelector("#closeExerciseButton").addEventListener("click", closeExercise);
