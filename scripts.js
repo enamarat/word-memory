@@ -14,6 +14,10 @@ const sections = [
     {english: "Shoes", russian: "Обувь"},
     {english: "Appliances", russian: "Техника"},
     {english: "Colors", russian: "Цвета"},
+    {english: "Bathroom", russian: "Ванная"},
+    {english: "School", russian: "Школа"},
+    {english: "Nature", russian: "Природа"},
+    {english: "Containers", russian: "Контейнеры"},
 ];
 const images = {
     animals: [
@@ -770,6 +774,11 @@ const images = {
             source: "./images/clothes/dress.jpg"
         },
         {
+            name: "skirt",
+            nameRussian: "юбка",
+            source: "./images/clothes/skirt.jpg"
+        },
+        {
             name: "gloves",
             nameRussian: "перчатки",
             source: "./images/clothes/gloves.jpg"
@@ -984,6 +993,154 @@ const images = {
             name: "white",
             nameRussian: "белый",
             source: "./images/colors/white.jpg"
+        },
+    ],
+    bathroom: [
+        {
+            name: "towel",
+            nameRussian: "полотенце",
+            source: "./images/bathroom/towel.jpg"
+        },
+        {
+            name: "sink",
+            nameRussian: "раковина",
+            source: "./images/bathroom/sink.jpg"
+        },
+        {
+            name: "toilet",
+            nameRussian: "туалет",
+            source: "./images/bathroom/toilet.jpg"
+        },
+        {
+            name: "toilet paper",
+            nameRussian: "туалетная бумага",
+            source: "./images/bathroom/toiletpaper.jpg"
+        },
+        {
+            name: "soap",
+            nameRussian: "мыло",
+            source: "./images/bathroom/soap.jpg"
+        },
+        {
+            name: "toothbrush",
+            nameRussian: "зубная щётка",
+            source: "./images/bathroom/toothbrush.jpg"
+        },
+        {
+            name: "toothpaste",
+            nameRussian: "зубная паста",
+            source: "./images/bathroom/toothpaste.jpg"
+        },
+        {
+            name: "razor",
+            nameRussian: "бритва",
+            source: "./images/bathroom/razor.jpg"
+        },
+    ],
+    school: [
+        {
+            name: "ruler",
+            nameRussian: "линейка",
+            source: "./images/school/ruler.jpg"
+        },
+        {
+            name: "pen",
+            nameRussian: "ручка",
+            source: "./images/school/pen.jpg"
+        },
+        {
+            name: "pencil",
+            nameRussian: "карандаш",
+            source: "./images/school/pencil.jpg"
+        },
+        {
+            name: "scissors",
+            nameRussian: "ножницы",
+            source: "./images/school/scissors.jpg"
+        },
+    ],
+    nature: [
+        {
+            name: "cloud",
+            nameRussian: "облако",
+            source: "./images/nature/cloud.jpg"
+        },
+        {
+            name: "snow",
+            nameRussian: "снег",
+            source: "./images/nature/snow.jpg"
+        },
+        {
+            name: "grass",
+            nameRussian: "трава",
+            source: "./images/nature/grass.jpg"
+        },
+        {
+            name: "mountain",
+            nameRussian: "гора",
+            source: "./images/nature/mountain.jpg"
+        },
+        {
+            name: "lake",
+            nameRussian: "озеро",
+            source: "./images/nature/lake.jpg"
+        },
+        {
+            name: "river",
+            nameRussian: "река",
+            source: "./images/nature/river.jpg"
+        },
+        {
+            name: "sea",
+            nameRussian: "море",
+            source: "./images/nature/sea.jpg"
+        },
+        {
+            name: "tree",
+            nameRussian: "дерево",
+            source: "./images/nature/tree.jpg"
+        },
+    ],
+    containers: [
+        {
+            name: "purse",
+            nameRussian: "сумка",
+            source: "./images/containers/purse.jpg"
+        },
+        {
+            name: "sack",
+            nameRussian: "мешок",
+            source: "./images/containers/sack.jpg"
+        },
+        {
+            name: "box",
+            nameRussian: "коробка",
+            source: "./images/containers/box.jpg"
+        },
+        {
+            name: "wooden box",
+            nameRussian: "ящик",
+            source: "./images/containers/woodenBox.jpg"
+        },
+        {
+            name: "cart",
+            nameRussian: "тележка",
+            source: "./images/containers/cart.jpg"
+        },
+        {
+            name: "plastic bag",
+            nameRussian: "пакет",
+            source: "./images/containers/plasticBag.jpg"
+        },
+        {
+            name: "bucket",
+            nameRussian: "ведро",
+            source: "./images/containers/bucket.jpg"
+        },
+        {
+            name: "backpack",
+            nameRussian: "рюкзак",
+            source: "./images/containers/backpack.jpg"
         },
     ]
 };
