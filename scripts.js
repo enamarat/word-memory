@@ -1048,8 +1048,8 @@ const changeImage = () => {
     }
     // reset
     document.querySelector("#imageNameInput").value = "";
-    document.querySelector("#status").textContent = "";
-    document.querySelector("#status").className = "";
+    document.querySelector("#status").style.display = "none";
+    document.querySelector("#hint").style.display = "none";
     document.querySelector("#name").style.visibility = "hidden";
     document.querySelector("#checkButton").style.display = "block";
     document.querySelector("#nextButton").style.display = "none";
@@ -1066,17 +1066,14 @@ const checkExercise = () => {
     }
     
     if (answer == userInput) {
-        document.querySelector("#status").textContent = "CORRECT";
-        document.querySelector("#status").className = "correct_answer";
-        document.querySelector("#name").style.visibility = "visible";
         // next exercise
         document.querySelector("#checkButton").style.display = "none";
         document.querySelector("#nextButton").style.display = "block";
         stage = "questionAccepted";
         changeImage();
     } else {
-        document.querySelector("#status").textContent = "WRONG";
-        document.querySelector("#status").className = "wrong_answer";
+        document.querySelector("#status").style.display = "block";
+        document.querySelector("#hint").style.display = "block";
         document.querySelector("#imageNameInput").value = "";
     }
 }
@@ -1114,6 +1111,11 @@ const changeLanguage = () => {
 }
 
 
+const showHint = () => {
+    document.querySelector("#name").style.visibility = "visible";
+}
+
+
 const closeExercise = () => {
     document.querySelector("#exercise").style.display = "none";
     document.querySelector("#sections").style.display = "flex";
@@ -1132,3 +1134,4 @@ document.querySelector("#checkButton").addEventListener("click", checkExercise);
 document.querySelector("#nextButton").addEventListener("click", changeImage);
 document.querySelector("#language").addEventListener("click", changeLanguage);
 document.querySelector("#closeExerciseButton").addEventListener("click", closeExercise);
+document.querySelector("#hint").addEventListener("click", showHint);

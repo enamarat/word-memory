@@ -26,8 +26,10 @@ h2 {
 /* Header */
 #language {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 5px;
+    font-size: 1.5em;
+    color: blue;
 }
 
 #language:hover {
@@ -82,20 +84,27 @@ h2 {
     object-fit: cover;
 }
 
+/*** Status ***/
 #status {
+    display: none;
     position: absolute;
     top: 5px;
     right: 5px;
-}
-
-.correct_answer {
-    color: green;
-}
-
-.wrong_answer {
     color: red;
 }
 
+#hint {
+    display: none;
+    color: blue;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+#hint:hover {
+    cursor: pointer;
+}
+
+/*** Input ***/
 #imageNameInput {
     margin: 0.5em;
     font-size: 2em;
@@ -146,7 +155,7 @@ h2 {
     color: yellow;
 }
 
-/** Container **/
+/** Close exercise button **/
 .horizontalContainer {
     display: flex;
     width: 100%;
