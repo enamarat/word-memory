@@ -12,6 +12,8 @@ const sections = [
     {english: "Berries", russian: "Ягоды"},
     {english: "Clothes", russian: "Одежда"},
     {english: "Shoes", russian: "Обувь"},
+    {english: "Appliances", russian: "Техника"},
+    {english: "Colors", russian: "Цвета"},
 ];
 const images = {
     animals: [
@@ -288,7 +290,41 @@ const images = {
         },
     ],
     fish: [
-
+        {
+            name: "shark",
+            nameRussian: "акула",
+            source: "./images/fish/shark.jpg"
+        },
+        {
+            name: "whale",
+            nameRussian: "кит",
+            source: "./images/fish/whale.jpg"
+        },
+        {
+            name: "dolphin",
+            nameRussian: "дельфин",
+            source: "./images/fish/dolphin.jpg"
+        },
+        {
+            name: "carp",
+            nameRussian: "карп",
+            source: "./images/fish/carp.jpg"
+        },
+        {
+            name: "pike",
+            nameRussian: "щука",
+            source: "./images/fish/pike.jpg"
+        },
+        {
+            name: "catfish",
+            nameRussian: "сом",
+            source: "./images/fish/catfish.jpg"
+        },
+        {
+            name: "herring",
+            nameRussian: "сельдь",
+            source: "./images/fish/herring.jpg"
+        },
     ],
     transport: [
         {
@@ -611,7 +647,36 @@ const images = {
         },
     ],
     berries: [
-
+        {
+            name: "redcurrant",
+            nameRussian: "красная смородина",
+            source: "./images/berries/redcurrant.jpg"
+        },
+        {
+            name: "blackcurrant",
+            nameRussian: "чёрная смородина",
+            source: "./images/berries/blackcurrant.jpg"
+        },
+        {
+            name: "blackberry",
+            nameRussian: "ежевика",
+            source: "./images/berries/blackberry.jpg"
+        },
+        {
+            name: "blueberry",
+            nameRussian: "черника",
+            source: "./images/berries/blueberry.jpg"
+        },
+        {
+            name: "raspberry",
+            nameRussian: "малина",
+            source: "./images/berries/raspberry.jpg"
+        },
+        {
+            name: "gooseberry",
+            nameRussian: "крыжовник",
+            source: "./images/berries/gooseberry.jpg"
+        },
     ],
     clothes: [
         {
@@ -721,6 +786,115 @@ const images = {
             nameRussian: "ботинки",
             source: "./images/shoes/winterBoots.jpg"
         }
+    ],
+    appliances: [
+        {
+            name: "lamp",
+            nameRussian: "лампа",
+            source: "./images/appliances/lamp.jpg"
+        },
+        {
+            name: "phone",
+            nameRussian: "телефон",
+            source: "./images/appliances/phone.jpg"
+        },
+        {
+            name: "vacuum cleaner",
+            nameRussian: "пылесос",
+            source: "./images/appliances/vacuumCleaner.jpg"
+        },
+        {
+            name: "television",
+            nameRussian: "телевизор",
+            source: "./images/appliances/television.jpg"
+        },
+        {
+            name: "fridge",
+            nameRussian: "холодильник",
+            source: "./images/appliances/fridge.jpg"
+        },
+        {
+            name: "stove",
+            nameRussian: "плита",
+            source: "./images/appliances/stove.jpg"
+        },
+        {
+            name: "laptop",
+            nameRussian: "компьютер",
+            source: "./images/appliances/laptop.jpg"
+        },
+        {
+            name: "washing machine",
+            nameRussian: "стиральная машина",
+            source: "./images/appliances/washingmachine.jpg"
+        },
+        {
+            name: "kettle",
+            nameRussian: "электрический чайник",
+            source: "./images/appliances/kettle.jpg"
+        },
+        {
+            name: "iron",
+            nameRussian: "утюг",
+            source: "./images/appliances/iron.jpg"
+        },
+        {
+            name: "fan",
+            nameRussian: "вентилятор",
+            source: "./images/appliances/fan.jpg"
+        },
+        {
+            name: "remoteController",
+            nameRussian: "пульт",
+            source: "./images/appliances/remoteController.jpg"
+        },
+        {
+            name: "battery",
+            nameRussian: "батарейка",
+            source: "./images/appliances/battery.jpg"
+        },
+        {
+            name: "microwave oven",
+            nameRussian: "микроволновая печь",
+            source: "./images/appliances/microwaveOven.jpg"
+        },
+        {
+            name: "scales",
+            nameRussian: "весы",
+            source: "./images/appliances/scales.jpg"
+        },
+        {
+            name: "electronic scales",
+            nameRussian: "электронные весы",
+            source: "./images/appliances/scales2.jpg"
+        },
+        {
+            name: "mixer",
+            nameRussian: "смеситель",
+            source: "./images/appliances/mixer.jpg"
+        },
+        {
+            name: "hair dryer",
+            nameRussian: "фен",
+            source: "./images/appliances/hairdryer.jpg"
+        },
+        {
+            name: "electric razor",
+            nameRussian: "электрическая бритва",
+            source: "./images/appliances/electricrazor.jpg"
+        },
+        {
+            name: "grill",
+            nameRussian: "гриль",
+            source: "./images/appliances/grill.jpg"
+        },
+    ],
+    colors: [
+        {
+            name: "green",
+            nameRussian: "зелёный",
+            source: "./images/colors/kettle.jpg"
+        },
     ]
 };
 let chosenSection = "";
@@ -815,6 +989,7 @@ const checkExercise = () => {
         document.querySelector("#checkButton").style.display = "none";
         document.querySelector("#nextButton").style.display = "block";
         stage = "questionAccepted";
+        //setTimeout(() => changeImage(), 600);
     } else {
         document.querySelector("#status").textContent = "WRONG";
         document.querySelector("#status").className = "wrong_answer";
