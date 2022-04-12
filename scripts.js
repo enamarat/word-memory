@@ -18,6 +18,9 @@ const sections = [
     {english: "School", russian: "Школа"},
     {english: "Nature", russian: "Природа"},
     {english: "Containers", russian: "Контейнеры"},
+    {english: "Tools", russian: "Инструменты"},
+    {english: "House", russian: "Дом"},
+    {english: "Body", russian: "Тело"},
 ];
 const images = {
     animals: [
@@ -166,6 +169,11 @@ const images = {
             nameRussian: "крыса",
             source: "./images/animals/rat.jpg"
         },
+        {
+            name: "porcupine",
+            nameRussian: "дикобраз",
+            source: "./images/animals/porcupine.jpg"
+        },
     ],
     insects: [
         {
@@ -253,9 +261,19 @@ const images = {
             source: "./images/birds/sparrow.jpg"
         },
         {
+            name: "wagtail",
+            nameRussian: "трясогузка",
+            source: "./images/birds/wagtail.jpg"
+        },
+        {
             name: "hoodedCrow",
             nameRussian: "ворона",
             source: "./images/birds/hoodedCrow.jpg"
+        },
+        {
+            name: "magpie",
+            nameRussian: "сорока",
+            source: "./images/birds/magpie.jpg"
         },
         {
             name: "pigeon",
@@ -286,11 +304,6 @@ const images = {
             name: "penguin",
             nameRussian: "пингвин",
             source: "./images/birds/penguin.jpg"
-        },
-        {
-            name: "wagtail",
-            nameRussian: "трясогузка",
-            source: "./images/birds/wagtail.jpg"
         },
         {
             name: "peacock",
@@ -331,7 +344,17 @@ const images = {
             name: "woodpecker",
             nameRussian: "дятел",
             source: "./images/birds/woodpecker.jpg"
-        }
+        },
+        {
+            name: "crane",
+            nameRussian: "журавль",
+            source: "./images/birds/crane.jpg"
+        },
+        {
+            name: "ostrich",
+            nameRussian: "страус",
+            source: "./images/birds/ostrich.jpg"
+        },
     ],
     fish: [
         {
@@ -545,6 +568,11 @@ const images = {
             nameRussian: "контейнер",
             source: "./images/dishes/container.jpg"
         },
+        {
+            name: "vase",
+            nameRussian: "ваза",
+            source: "./images/dishes/vase.jpg"
+        }
     ],
     fruit: [
         {
@@ -937,6 +965,11 @@ const images = {
             nameRussian: "гриль",
             source: "./images/appliances/grill.jpg"
         },
+        {
+            name: "mover",
+            nameRussian: "косилка",
+            source: "./images/appliances/mover.jpg"
+        },
     ],
     colors: [
         {
@@ -1058,6 +1091,21 @@ const images = {
             nameRussian: "ножницы",
             source: "./images/school/scissors.jpg"
         },
+        {
+            name: "eraser",
+            nameRussian: "ластик",
+            source: "./images/school/eraser.jpg"
+        },
+        {
+            name: "pencil sharpener",
+            nameRussian: "точилка",
+            source: "./images/school/sharpener.jpg"
+        },
+        {
+            name: "clip",
+            nameRussian: "скрепка",
+            source: "./images/school/clip.jpg"
+        },
     ],
     nature: [
         {
@@ -1141,6 +1189,152 @@ const images = {
             name: "backpack",
             nameRussian: "рюкзак",
             source: "./images/containers/backpack.jpg"
+        },
+    ],
+    tools:[
+        {
+            name: "screwdriver",
+            nameRussian: "отвёртка",
+            source: "./images/tools/screwdriver.jpg"
+        },
+        {
+            name: "axe",
+            nameRussian: "топор",
+            source: "./images/tools/axe.jpg"
+        },
+        {
+            name: "hammer",
+            nameRussian: "молоток",
+            source: "./images/tools/hammer.jpg"
+        },
+        {
+            name: "saw",
+            nameRussian: "пила",
+            source: "./images/tools/saw.jpg"
+        },
+        {
+            name: "shovel",
+            nameRussian: "лопата",
+            source: "./images/tools/shovel.jpg"
+        },
+        {
+            name: "nail",
+            nameRussian: "гвоздь",
+            source: "./images/tools/nail.jpg"
+        },
+        {
+            name: "screw",
+            nameRussian: "шуруп",
+            source: "./images/tools/screw.jpg"
+        },
+    ],
+    house: [
+        {
+            name: "stairs",
+            nameRussian: "лестница",
+            source: "./images/house/stairs.jpg"
+        },
+        {
+            name: "window",
+            nameRussian: "окно",
+            source: "./images/house/window.jpg"
+        },
+        {
+            name: "door",
+            nameRussian: "дверь",
+            source: "./images/house/door.jpg"
+        },
+        {
+            name: "carpet",
+            nameRussian: "ковёр",
+            source: "./images/house/carpet.jpg"
+        },
+        {
+            name: "house",
+            nameRussian: "дом",
+            source: "./images/house/house.jpg"
+        },
+    ],
+    body: [
+        {
+            name: "arm",
+            nameRussian: "рука",
+            source: "./images/body/arm.jpg"
+        },
+        {
+            name: "leg",
+            nameRussian: "нога",
+            source: "./images/body/leg.jpg"
+        },
+        {
+            name: "eyes",
+            nameRussian: "глаза",
+            source: "./images/body/eyes.jpg"
+        },
+        {
+            name: "ear",
+            nameRussian: "ухо",
+            source: "./images/body/ear.jpg"
+        },
+        {
+            name: "abdomen",
+            nameRussian: "живот",
+            source: "./images/body/abdomen.jpg"
+        },
+        {
+            name: "knee",
+            nameRussian: "колено",
+            source: "./images/body/knee.jpg"
+        },
+        {
+            name: "shoulder",
+            nameRussian: "плечо",
+            source: "./images/body/shoulder.jpg"
+        },
+        {
+            name: "teeth",
+            nameRussian: "зубы",
+            source: "./images/body/teeth.jpg"
+        },
+        {
+            name: "forehead",
+            nameRussian: "лоб",
+            source: "./images/body/forehead.jpg"
+        },
+        {
+            name: "brows",
+            nameRussian: "брови",
+            source: "./images/body/brows.jpg"
+        },
+        {
+            name: "nose",
+            nameRussian: "нос",
+            source: "./images/body/nose.jpg"
+        },
+        {
+            name: "finger",
+            nameRussian: "палец",
+            source: "./images/body/finger.jpg"
+        },
+        {
+            name: "neck",
+            nameRussian: "шея",
+            source: "./images/body/neck.jpg"
+        },
+        {
+            name: "chest",
+            nameRussian: "грудь",
+            source: "./images/body/chest.jpg"
+        },
+        {
+            name: "back",
+            nameRussian: "спина",
+            source: "./images/body/back.jpg"
+        },
+        {
+            name: "foot",
+            nameRussian: "ступня",
+            source: "./images/body/foot.jpg"
         },
     ]
 };
