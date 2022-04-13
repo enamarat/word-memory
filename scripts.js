@@ -21,7 +21,11 @@ const sections = [
     {english: "Tools", russian: "Инструменты"},
     {english: "House", russian: "Дом"},
     {english: "Body", russian: "Тело"},
+    {english: "Yard", russian: "Двор"},
+    {english: "Music", russian: "Музыка"},
+    {english: "People", russian: "Люди"},
 ];
+let completedSections = {};
 const images = {
     animals: [
         {
@@ -866,6 +870,11 @@ const images = {
     ],
     appliances: [
         {
+            name: "mower",
+            nameRussian: "косилка",
+            source: "./images/appliances/mower.jpg"
+        },
+        {
             name: "lamp",
             nameRussian: "лампа",
             source: "./images/appliances/lamp.jpg"
@@ -964,12 +973,7 @@ const images = {
             name: "grill",
             nameRussian: "гриль",
             source: "./images/appliances/grill.jpg"
-        },
-        {
-            name: "mover",
-            nameRussian: "косилка",
-            source: "./images/appliances/mover.jpg"
-        },
+        }
     ],
     colors: [
         {
@@ -1230,6 +1234,11 @@ const images = {
     ],
     house: [
         {
+            name: "clock",
+            nameRussian: "часы",
+            source: "./images/house/clock.jpg"
+        },
+        {
             name: "stairs",
             nameRussian: "лестница",
             source: "./images/house/stairs.jpg"
@@ -1257,6 +1266,26 @@ const images = {
     ],
     body: [
         {
+            name: "brows",
+            nameRussian: "брови",
+            source: "./images/body/brows2.jpg"
+        },
+        {
+            name: "chest",
+            nameRussian: "грудь",
+            source: "./images/body/chest2.jpg"
+        },
+        {
+            name: "abdomen",
+            nameRussian: "живот",
+            source: "./images/body/abdomen2.jpg"
+        },
+        {
+            name: "back",
+            nameRussian: "спина",
+            source: "./images/body/back2.jpg"
+        },
+        {
             name: "arm",
             nameRussian: "рука",
             source: "./images/body/arm.jpg"
@@ -1269,7 +1298,7 @@ const images = {
         {
             name: "eyes",
             nameRussian: "глаза",
-            source: "./images/body/eyes.jpg"
+            source: "./images/body/eyes2.jpg"
         },
         {
             name: "ear",
@@ -1277,64 +1306,155 @@ const images = {
             source: "./images/body/ear.jpg"
         },
         {
-            name: "abdomen",
-            nameRussian: "живот",
-            source: "./images/body/abdomen.jpg"
-        },
-        {
             name: "knee",
             nameRussian: "колено",
-            source: "./images/body/knee.jpg"
+            source: "./images/body/knee2.jpg"
         },
         {
             name: "shoulder",
             nameRussian: "плечо",
-            source: "./images/body/shoulder.jpg"
+            source: "./images/body/shoulder2.jpg"
         },
         {
             name: "teeth",
             nameRussian: "зубы",
-            source: "./images/body/teeth.jpg"
+            source: "./images/body/teeth2.jpg"
+        },
+        {
+            name: "lips",
+            nameRussian: "губы",
+            source: "./images/body/lips.jpg"
+        },
+        {
+            name: "mouth",
+            nameRussian: "рот",
+            source: "./images/body/mouth.jpg"
+        },
+        {
+            name: "tongue",
+            nameRussian: "язык",
+            source: "./images/body/tongue2.jpg"
         },
         {
             name: "forehead",
             nameRussian: "лоб",
-            source: "./images/body/forehead.jpg"
-        },
-        {
-            name: "brows",
-            nameRussian: "брови",
-            source: "./images/body/brows.jpg"
+            source: "./images/body/forehead2.jpg"
         },
         {
             name: "nose",
             nameRussian: "нос",
-            source: "./images/body/nose.jpg"
+            source: "./images/body/nose2.jpg"
         },
         {
             name: "finger",
             nameRussian: "палец",
-            source: "./images/body/finger.jpg"
+            source: "./images/body/finger2.jpg"
         },
         {
             name: "neck",
             nameRussian: "шея",
-            source: "./images/body/neck.jpg"
-        },
-        {
-            name: "chest",
-            nameRussian: "грудь",
-            source: "./images/body/chest.jpg"
-        },
-        {
-            name: "back",
-            nameRussian: "спина",
-            source: "./images/body/back.jpg"
+            source: "./images/body/neck2.jpg"
         },
         {
             name: "foot",
             nameRussian: "ступня",
             source: "./images/body/foot.jpg"
+        },
+    ],
+    yard: [
+        {
+            name: "ball",
+            nameRussian: "мяч",
+            source: "./images/yard/ball.jpg"
+        },
+        {
+            name: "rope",
+            nameRussian: "верёвка",
+            source: "./images/yard/rope.jpg"
+        },
+        {
+            name: "swing",
+            nameRussian: "качели",
+            source: "./images/yard/swing.jpg"
+        },
+        {
+            name: "trampoline",
+            nameRussian: "батут",
+            source: "./images/yard/trampoline.jpg"
+        },
+    ],
+    music: [
+        {
+            name: "guitar",
+            nameRussian: "гитара",
+            source: "./images/music/guitar.jpg"
+        },
+        {
+            name: "piano",
+            nameRussian: "пианино",
+            source: "./images/music/piano.jpg"
+        },
+        {
+            name: "drum",
+            nameRussian: "барабан",
+            source: "./images/music/drum.jpg"
+        },
+        {
+            name: "trumpet",
+            nameRussian: "труба",
+            source: "./images/music/trumpet.jpg"
+        },
+        {
+            name: "flute",
+            nameRussian: "флейта",
+            source: "./images/music/flute.jpg"
+        },
+        {
+            name: "violin",
+            nameRussian: "скрипка",
+            source: "./images/music/violin.jpg"
+        },
+        {
+            name: "harp",
+            nameRussian: "арфа",
+            source: "./images/music/harp.jpg"
+        },
+        {
+            name: "synth",
+            nameRussian: "синтезатор",
+            source: "./images/music/synth.jpg"
+        },
+    ],
+    people: [
+        {
+            name: "woman",
+            nameRussian: "женщина",
+            source: "./images/people/woman.jpg"
+        },
+        {
+            name: "man",
+            nameRussian: "мужчина",
+            source: "./images/people/man.jpg"
+        },
+        {
+            name: "girl",
+            nameRussian: "девочка",
+            source: "./images/people/girl.jpg"
+        },
+        {
+            name: "boy",
+            nameRussian: "мальчик",
+            source: "./images/people/boy.jpg"
+        },
+        {
+            name: "grandma",
+            nameRussian: "бабушка",
+            source: "./images/people/grandma.jpg"
+        },
+        {
+            name: "grandpa",
+            nameRussian: "дедушка",
+            source: "./images/people/grandpa.jpg"
         },
     ]
 };
@@ -1346,6 +1466,8 @@ let language = "English";
 
 
 const showSections = (language) => {
+    completedSections = JSON.parse(localStorage.getItem('completedSections'));
+
     let content = ``;
     if (language == "english") {
         content = `<h2>Sections</h2>`;
@@ -1354,14 +1476,18 @@ const showSections = (language) => {
     }
 
     for (let i = 0; i < sections.length; i++) {
-        content += `<button class="sectionButton" value=${sections[i].english} name=${sections[i].russian}>${sections[i][language]}</button>`;
+        if (completedSections[sections[i].english.toLowerCase()]) {
+            content += `<button class="sectionButton sectionButtonCompleted" value=${sections[i].english} name=${sections[i].russian}>${sections[i][language]}</button>`;
+        } else {
+            content += `<button class="sectionButton" value=${sections[i].english} name=${sections[i].russian}>${sections[i][language]}</button>`;
+        }
     }
     document.querySelector("#sections").innerHTML = content;
 }
 
 
 const showExercise = (event) => {
-   if (event.target.className == "sectionButton") {
+   if (event.target.className == "sectionButton" || event.target.className == "sectionButton sectionButtonCompleted") {
     stage = "question";
     chosenSection = images[event.target.value.toLowerCase()];
     chosenCategory.english = event.target.value;
@@ -1394,7 +1520,7 @@ const changeImage = () => {
         } else if (language == "Russian") {
             document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
         }
-    } else if (count == chosenSection.length-1)  {
+    } else if (count == chosenSection.length-1) {
         closeExercise();
     }
     // reset
@@ -1434,7 +1560,7 @@ const changeExerciseWithKey = (event) => {
     if (event.key == "Enter" && stage == "question") {
         checkExercise();
     } else if (event.key == "Enter" && stage == "questionAccepted") {
-        changeImage();
+        changeImage(document.querySelector("#category").textContent);
     }
 }
 
@@ -1468,6 +1594,18 @@ const showHint = () => {
 
 
 const closeExercise = () => {
+    if (completedSections == null) {
+        completedSections = {};
+    }
+
+    if (!completedSections[chosenCategory.english.toLowerCase()]) {
+        completedSections[chosenCategory.english.toLowerCase()] = true;
+    } else {
+        delete completedSections[chosenCategory.english.toLowerCase()];
+    }
+    localStorage.setItem(`completedSections`, JSON.stringify(completedSections));
+    showSections(language.toLowerCase());
+
     document.querySelector("#exercise").style.display = "none";
     document.querySelector("#sections").style.display = "flex";
     document.querySelector("#category").textContent = "";
