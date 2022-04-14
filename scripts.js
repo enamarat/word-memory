@@ -1607,6 +1607,7 @@ let language = "";
 
 
 const showSections = (languageArgument) => {
+    //localStorage.clear();
     completedSections = JSON.parse(localStorage.getItem('completedSections'));
     const chosenLanguage = JSON.parse(localStorage.getItem('language'));
     if (chosenLanguage != null) {
@@ -1625,11 +1626,16 @@ const showSections = (languageArgument) => {
     }
 
     for (let i = 0; i < sections.length; i++) {
-        if (completedSections[sections[i].english.toLowerCase()]) {
-            content += `<button class="sectionButton sectionButtonCompleted" value=${sections[i].english} name=${sections[i].russian}>${sections[i][language]}</button>`;
+        if (completedSections != null) {
+            if (completedSections[sections[i].english.toLowerCase()] != undefined) {
+                content += `<button class="sectionButton sectionButtonCompleted" value=${sections[i].english} name=${sections[i].russian}>${sections[i][language]}</button>`;
+            } else {
+                content += `<button class="sectionButton" value=${sections[i].english} name=${sections[i].russian}>${sections[i][language]}</button>`;
+            }
         } else {
             content += `<button class="sectionButton" value=${sections[i].english} name=${sections[i].russian}>${sections[i][language]}</button>`;
         }
+      
     }
     document.querySelector("#sections").innerHTML = content;
 }
