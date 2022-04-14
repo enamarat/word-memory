@@ -24,10 +24,17 @@ const sections = [
     {english: "Yard", russian: "Двор"},
     {english: "Music", russian: "Музыка"},
     {english: "People", russian: "Люди"},
+    {english: "Pocket", russian: "Карман"},
+    {english: "Food", russian: "Еда"},
 ];
 let completedSections = {};
 const images = {
     animals: [
+        {
+            name: "koala",
+            nameRussian: "коала",
+            source: "./images/animals/koala.jpg"
+        },
         {
             name: "wolf",
             nameRussian: "волк",
@@ -258,6 +265,11 @@ const images = {
             name: "rooster",
             nameRussian: "петух",
             source: "./images/birds/rooster.jpg"
+        },
+        {
+            name: "chick",
+            nameRussian: "цыплёнок",
+            source: "./images/birds/chick.jpg"
         },
         {
             name: "sparrow",
@@ -1110,6 +1122,11 @@ const images = {
             nameRussian: "скрепка",
             source: "./images/school/clip.jpg"
         },
+        {
+            name: "book",
+            nameRussian: "книга",
+            source: "./images/school/book.jpg"
+        },
     ],
     nature: [
         {
@@ -1237,6 +1254,11 @@ const images = {
             name: "clock",
             nameRussian: "часы",
             source: "./images/house/clock.jpg"
+        },
+        {
+            name: "chandelier",
+            nameRussian: "люстра",
+            source: "./images/house/chandelier.jpg"
         },
         {
             name: "stairs",
@@ -1382,6 +1404,11 @@ const images = {
             nameRussian: "батут",
             source: "./images/yard/trampoline.jpg"
         },
+        {
+            name: "gates",
+            nameRussian: "ворота",
+            source: "./images/yard/gates.jpg"
+        },
     ],
     music: [
         {
@@ -1456,23 +1483,145 @@ const images = {
             nameRussian: "дедушка",
             source: "./images/people/grandpa.jpg"
         },
+    ],
+    pocket: [
+        {
+            name: "glasses",
+            nameRussian: "очки",
+            source: "./images/pocket/glasses.jpg"
+        },
+        {
+            name: "comb",
+            nameRussian: "расчёска",
+            source: "./images/pocket/comb.jpg"
+        },
+        {
+            name: "key",
+            nameRussian: "ключ",
+            source: "./images/pocket/key.jpg"
+        },
+        {
+            name: "flashlight",
+            nameRussian: "фонарик",
+            source: "./images/pocket/flashlight.jpg"
+        },
+        {
+            name: "napkin",
+            nameRussian: "салфетка",
+            source: "./images/pocket/napkin.jpg"
+        },
+        {
+            name: "handkerchief",
+            nameRussian: "платок",
+            source: "./images/pocket/handkerchief.jpg"
+        },
+        {
+            name: "coin",
+            nameRussian: "монета",
+            source: "./images/pocket/coin.jpg"
+        },
+        {
+            name: "money",
+            nameRussian: "деньги",
+            source: "./images/pocket/money.jpg"
+        },
+        {
+            name: "lighter",
+            nameRussian: "зажигалка",
+            source: "./images/pocket/lighter.jpg"
+        },
+        {
+            name: "matches",
+            nameRussian: "спички",
+            source: "./images/pocket/matches.jpg"
+        },
+        {
+            name: "wallet",
+            nameRussian: "бумажник",
+            source: "./images/pocket/wallet.jpg"
+        },
+        {
+            name: "ticket",
+            nameRussian: "билет",
+            source: "./images/pocket/ticket.jpg"
+        },
+    ],
+    food: [
+        {
+            name: "cheese",
+            nameRussian: "сыр",
+            source: "./images/food/cheese.jpg"
+        },
+        {
+            name: "salami",
+            nameRussian: "колбаса",
+            source: "./images/food/salami.jpg"
+        },
+        {
+            name: "bread",
+            nameRussian: "хлеб",
+            source: "./images/food/bread.jpg"
+        },
+        {
+            name: "egg",
+            nameRussian: "яйцо",
+            source: "./images/food/egg.jpg"
+        },
+        {
+            name: "rice",
+            nameRussian: "рис",
+            source: "./images/food/rice.jpg"
+        },
+        {
+            name: "pasta",
+            nameRussian: "макароны",
+            source: "./images/food/pasta.jpg"
+        },
+        {
+            name: "water",
+            nameRussian: "вода",
+            source: "./images/food/water.jpg"
+        },
+        {
+            name: "tea",
+            nameRussian: "чай",
+            source: "./images/food/tea.jpg"
+        },
+        {
+            name: "milk",
+            nameRussian: "молоко",
+            source: "./images/food/milk.jpg"
+        },
+        {
+            name: "cookie",
+            nameRussian: "печенье",
+            source: "./images/food/cookie.jpg"
+        },
     ]
 };
 let chosenSection = "";
 let chosenCategory = {}
 let count = 0;
 let stage = "";
-let language = "English";
+let language = "";
 
 
-const showSections = (language) => {
+const showSections = (languageArgument) => {
     completedSections = JSON.parse(localStorage.getItem('completedSections'));
-
+    const chosenLanguage = JSON.parse(localStorage.getItem('language'));
+    if (chosenLanguage != null) {
+        language = chosenLanguage;
+    } else {
+        language = "english"
+    }
+    
     let content = ``;
-    if (language == "english") {
+    if (languageArgument == "english") {
         content = `<h2>Sections</h2>`;
-    } else if (language == "russian") {
+        document.querySelector("#language").textContent = "RUS";
+    } else if (languageArgument == "russian") {
         content = `<h2>Разделы</h2>`;
+        document.querySelector("#language").textContent = "ENG";
     }
 
     for (let i = 0; i < sections.length; i++) {
@@ -1495,10 +1644,10 @@ const showExercise = (event) => {
     document.querySelector("#sections").style.display = "none";
     document.querySelector("#imageContainer").innerHTML = `<img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>`;
 
-    if (language == "English") {
+    if (language == "english") {
         document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
         document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
-    } else if (language == "Russian") {
+    } else if (language == "russian") {
         document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
         document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
     }
@@ -1515,9 +1664,9 @@ const changeImage = () => {
         stage = "question";
         document.querySelector("#imageContainer").innerHTML = `<img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>`;
 
-        if (language == "English") {
+        if (language == "english") {
             document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
-        } else if (language == "Russian") {
+        } else if (language == "russian") {
             document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
         }
     } else if (count == chosenSection.length-1) {
@@ -1536,9 +1685,9 @@ const changeImage = () => {
 const checkExercise = () => {
     const userInput = document.querySelector("#imageNameInput").value.trim().toLowerCase().replace(/\s{2,}/g, " ");
     let answer = null;
-    if (language == "English") {
+    if (language == "english") {
         answer = chosenSection[count].name;
-    } else if (language == "Russian") {
+    } else if (language == "russian") {
         answer = chosenSection[count].nameRussian;
     }
     
@@ -1566,18 +1715,20 @@ const changeExerciseWithKey = (event) => {
 
 
 const changeLanguage = () => {
-    if (language == "English") {
-        language = "Russian";
+    if (language == "english") {
+        language = "russian";
         document.querySelector("#language").textContent = "ENG";
+        localStorage.setItem(`language`, JSON.stringify(language));
         showSections("russian");
         
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
             document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
         }
-    } else if (language == "Russian") {
-        language = "English";
+    } else if (language == "russian") {
+        language = "english";
         document.querySelector("#language").textContent = "RUS";
+        localStorage.setItem(`language`, JSON.stringify(language));
         showSections("english");
 
         if (stage == "question" || stage == "questionAccepted") {
@@ -1604,7 +1755,7 @@ const closeExercise = () => {
         delete completedSections[chosenCategory.english.toLowerCase()];
     }
     localStorage.setItem(`completedSections`, JSON.stringify(completedSections));
-    showSections(language.toLowerCase());
+    showSections(language);
 
     document.querySelector("#exercise").style.display = "none";
     document.querySelector("#sections").style.display = "flex";
