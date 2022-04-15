@@ -232,6 +232,11 @@ const images = {
             nameRussian: "божья коровка",
             source: "./images/insects/ladybug.jpg"
         },
+        {
+            name: "cockroach",
+            nameRussian: "таракан",
+            source: "./images/insects/cockroach.jpg"
+        },
     ],
     reptiles: [
         {
@@ -1125,6 +1130,16 @@ const images = {
     ],
     nature: [
         {
+            name: "forest",
+            nameRussian: "лес",
+            source: "./images/nature/forest.jpg"
+        },
+        {
+            name: "stick",
+            nameRussian: "палка",
+            source: "./images/nature/stick.jpg"
+        },
+        {
             name: "cloud",
             nameRussian: "облако",
             source: "./images/nature/cloud.jpg"
@@ -1303,6 +1318,21 @@ const images = {
     ],
     body: [
         {
+            name: "hair",
+            nameRussian: "волосы",
+            source: "./images/body/hair2.jpg"
+        },
+        {
+            name: "nails",
+            nameRussian: "ногти",
+            source: "./images/body/nails2.jpg"
+        },
+        {
+            name: "elbow",
+            nameRussian: "локоть",
+            source: "./images/body/elbow2.jpg"
+        },
+        {
             name: "brows",
             nameRussian: "брови",
             source: "./images/body/brows2.jpg"
@@ -1366,6 +1396,16 @@ const images = {
             name: "mouth",
             nameRussian: "рот",
             source: "./images/body/mouth.jpg"
+        },
+        {
+            name: "chin",
+            nameRussian: "подбородок",
+            source: "./images/body/chin.jpg"
+        },
+        {
+            name: "cheeks",
+            nameRussian: "щёки",
+            source: "./images/body/cheeks.jpg"
         },
         {
             name: "tongue",
