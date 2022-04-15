@@ -584,11 +584,6 @@ const images = {
             nameRussian: "контейнер",
             source: "./images/dishes/container.jpg"
         },
-        {
-            name: "vase",
-            nameRussian: "ваза",
-            source: "./images/dishes/vase.jpg"
-        }
     ],
     fruit: [
         {
@@ -1169,6 +1164,21 @@ const images = {
             nameRussian: "дерево",
             source: "./images/nature/tree.jpg"
         },
+        {
+            name: "leaf",
+            nameRussian: "лист",
+            source: "./images/nature/leaf.jpg"
+        },
+        {
+            name: "worm",
+            nameRussian: "червяк",
+            source: "./images/nature/worm.jpg"
+        },
+        {
+            name: "frog",
+            nameRussian: "лягушка",
+            source: "./images/nature/frog.jpg"
+        },
     ],
     containers: [
         {
@@ -1281,10 +1291,15 @@ const images = {
             source: "./images/house/carpet.jpg"
         },
         {
+            name: "vase",
+            nameRussian: "ваза",
+            source: "./images/dishes/vase.jpg"
+        },
+        {
             name: "house",
             nameRussian: "дом",
             source: "./images/house/house.jpg"
-        },
+        }
     ],
     body: [
         {
@@ -1597,6 +1612,11 @@ const images = {
             nameRussian: "печенье",
             source: "./images/food/cookie.jpg"
         },
+        {
+            name: "pizza",
+            nameRussian: "пицца",
+            source: "./images/food/pizza.jpg"
+        },
     ]
 };
 let chosenSection = "";
@@ -1606,7 +1626,7 @@ let stage = "";
 let language = "";
 
 
-const showSections = (languageArgument) => {
+const showSections = () => {
     //localStorage.clear();
     completedSections = JSON.parse(localStorage.getItem('completedSections'));
     const chosenLanguage = JSON.parse(localStorage.getItem('language'));
@@ -1617,12 +1637,14 @@ const showSections = (languageArgument) => {
     }
     
     let content = ``;
-    if (languageArgument == "english") {
+    if (language == "english") {
         content = `<h2>Sections</h2>`;
         document.querySelector("#language").textContent = "RUS";
-    } else if (languageArgument == "russian") {
+        document.querySelector("#hint").textContent = "Hint";
+    } else if (language == "russian") {
         content = `<h2>Разделы</h2>`;
         document.querySelector("#language").textContent = "ENG";
+        document.querySelector("#hint").textContent = "Подсказка";
     }
 
     for (let i = 0; i < sections.length; i++) {
@@ -1725,7 +1747,7 @@ const changeLanguage = () => {
         language = "russian";
         document.querySelector("#language").textContent = "ENG";
         localStorage.setItem(`language`, JSON.stringify(language));
-        showSections("russian");
+        document.querySelector("#hint").textContent = "Подсказка";
         
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
@@ -1735,13 +1757,14 @@ const changeLanguage = () => {
         language = "english";
         document.querySelector("#language").textContent = "RUS";
         localStorage.setItem(`language`, JSON.stringify(language));
-        showSections("english");
+        document.querySelector("#hint").textContent = "Hint";
 
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
             document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`; 
         }
     }
+    showSections();
 }
 
 
@@ -1761,7 +1784,7 @@ const closeExercise = () => {
         delete completedSections[chosenCategory.english.toLowerCase()];
     }
     localStorage.setItem(`completedSections`, JSON.stringify(completedSections));
-    showSections(language);
+    showSections();
 
     document.querySelector("#exercise").style.display = "none";
     document.querySelector("#sections").style.display = "flex";
@@ -1773,7 +1796,7 @@ const closeExercise = () => {
 }
 
 
-window.addEventListener("load", ()=> showSections("english"));
+window.addEventListener("load", showSections);
 window.addEventListener("keypress", changeExerciseWithKey);
 document.querySelector("#sections").addEventListener("click", showExercise);
 document.querySelector("#checkButton").addEventListener("click", checkExercise);
