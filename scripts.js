@@ -20,7 +20,6 @@ const sections = [
     {english: "Containers", russian: "Контейнеры"},
     {english: "Tools", russian: "Инструменты"},
     {english: "House", russian: "Дом"},
-    {english: "Body", russian: "Тело"},
     {english: "Yard", russian: "Двор"},
     {english: "Music", russian: "Музыка"},
     {english: "People", russian: "Люди"},
@@ -28,6 +27,9 @@ const sections = [
     {english: "Food", russian: "Еда"},
     {english: "Shapes", russian: "Формы"},
     {english: "Flowers", russian: "Цветы"},
+    {english: "Body", russian: "Тело"},
+    {english: "Poses", russian: "Позы"},
+    {english: "Actions", russian: "Действия"},
 ];
 let completedSections = {};
 const images = {
@@ -1802,6 +1804,125 @@ const images = {
             name: "forget-me-not",
             nameRussian: "незабудка",
             source: "./images/flowers/forget-me-not.jpg"
+        },
+    ],
+    poses: [
+        {
+            name: "standing",
+            nameRussian: "стоит",
+            source: "./images/poses/standing.jpg"
+        },
+        {
+            name: "sitting",
+            nameRussian: "сидит",
+            source: "./images/poses/sitting.jpg"
+        },
+        {
+            name: "lying",
+            nameRussian: "лежит",
+            source: "./images/poses/lying.jpg"
+        },
+    ],
+    actions: [
+        {
+            name: "drinking",
+            nameRussian: "пьёт",
+            source: "./images/actions/drinking.gif"
+        },
+        {
+            name: "eating",
+            nameRussian: "ест",
+            source: "./images/actions/eating.gif"
+        },
+        {
+            name: "writing",
+            nameRussian: "пишет",
+            source: "./images/actions/writing.gif"
+        },
+        {
+            name: "drawing",
+            nameRussian: "рисует",
+            source: "./images/actions/drawing.gif"
+        },
+        {
+            name: "playing",
+            nameRussian: "играет",
+            source: "./images/actions/playing.gif"
+        },
+        {
+            name: "cutting",
+            nameRussian: "режет",
+            source: "./images/actions/cutting.gif"
+        },
+        {
+            name: "sawing",
+            nameRussian: "пилит",
+            source: "./images/actions/sawing.gif"
+        },
+        {
+            name: "sitting down",
+            nameRussian: "садится",
+            source: "./images/actions/sittingdown.gif"
+        },
+        {
+            name: "getting up",
+            nameRussian: "встаёт",
+            source: "./images/actions/gettingup.gif"
+        },
+        {
+            name: "walking",
+            nameRussian: "идёт",
+            source: "./images/actions/walking.gif"
+        },
+        {
+            name: "running",
+            nameRussian: "бежит",
+            source: "./images/actions/running.gif"
+        },
+        {
+            name: "jumping",
+            nameRussian: "прыгает",
+            source: "./images/actions/jumping.gif"
+        },
+        {
+            name: "throwing",
+            nameRussian: "бросает",
+            source: "./images/actions/throwing.gif"
+        },
+        {
+            name: "reading",
+            nameRussian: "читает",
+            source: "./images/actions/reading.gif"
+        },
+        {
+            name: "digging",
+            nameRussian: "копает",
+            source: "./images/actions/digging.gif"
+        },
+        {
+            name: "giving",
+            nameRussian: "отдаёт",
+            source: "./images/actions/giving.gif"
+        },
+        {
+            name: "putting on",
+            nameRussian: "надевает",
+            source: "./images/actions/puttingon.gif"
+        },
+        {
+            name: "taking off",
+            nameRussian: "снимает",
+            source: "./images/actions/takingoff.gif"
+        },
+        {
+            name: "putting on",
+            nameRussian: "надевает",
+            source: "./images/actions/puttingon2.gif"
+        },
+        {
+            name: "taking off",
+            nameRussian: "снимает",
+            source: "./images/actions/takingoff2.gif"
         },
     ]
 };
