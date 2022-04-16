@@ -1980,9 +1980,17 @@ const showExercise = (event) => {
     document.querySelector("#imageContainer").innerHTML = `<img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>`;
 
     if (language == "english") {
+        if (chosenCategory.english.toLowerCase() == "actions") {
+            document.querySelector("#clarification").textContent = "What is it/he/she doing?";
+            document.querySelector("#clarification").style.display = "block";
+        }
         document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
         document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
     } else if (language == "russian") {
+        if (chosenCategory.english.toLowerCase() == "actions") {
+            document.querySelector("#clarification").textContent = "Что делает?";
+            document.querySelector("#clarification").style.display = "block";
+        }
         document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
         document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
     }
@@ -2055,6 +2063,10 @@ const changeLanguage = () => {
         document.querySelector("#language").textContent = "ENG";
         localStorage.setItem(`language`, JSON.stringify(language));
         document.querySelector("#hint").textContent = "Подсказка";
+        if (document.querySelector("#clarification")) {
+            document.querySelector("#clarification").textContent = "Что делает?";
+            document.querySelector("#clarification").style.display = "block";
+        }
         
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
@@ -2065,6 +2077,10 @@ const changeLanguage = () => {
         document.querySelector("#language").textContent = "RUS";
         localStorage.setItem(`language`, JSON.stringify(language));
         document.querySelector("#hint").textContent = "Hint";
+        if (document.querySelector("#clarification")) {
+            document.querySelector("#clarification").textContent = "What is it/he/she doing?";
+            document.querySelector("#clarification").style.display = "block";
+        }
 
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
@@ -2101,6 +2117,8 @@ const closeExercise = (lastImage=false) => {
     chosenCategory = {}
     count = 0;
     stage = "";
+    document.querySelector("#clarification").textContent = "";
+    document.querySelector("#clarification").style.display = "none";
 }
 
 
