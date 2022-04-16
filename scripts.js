@@ -2062,11 +2062,8 @@ const changeLanguage = () => {
         language = "russian";
         document.querySelector("#language").textContent = "ENG";
         localStorage.setItem(`language`, JSON.stringify(language));
-        document.querySelector("#hint").textContent = "Подсказка";
-        if (document.querySelector("#clarification")) {
-            document.querySelector("#clarification").textContent = "Что делает?";
-            document.querySelector("#clarification").style.display = "block";
-        }
+        document.querySelector("#hint").textContent = "Подсказка"; 
+        document.querySelector("#clarification").textContent = "Что делает?";
         
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
@@ -2077,11 +2074,8 @@ const changeLanguage = () => {
         document.querySelector("#language").textContent = "RUS";
         localStorage.setItem(`language`, JSON.stringify(language));
         document.querySelector("#hint").textContent = "Hint";
-        if (document.querySelector("#clarification")) {
-            document.querySelector("#clarification").textContent = "What is it/he/she doing?";
-            document.querySelector("#clarification").style.display = "block";
-        }
-
+        document.querySelector("#clarification").textContent = "What is it/he/she doing?";
+        
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
             document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`; 
