@@ -16,6 +16,8 @@ h1 {
     font-size: 3em;
     font-weight: bold;
     margin: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: tomato;
 }
 
 h2 {

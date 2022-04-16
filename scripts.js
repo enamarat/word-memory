@@ -26,6 +26,8 @@ const sections = [
     {english: "People", russian: "Люди"},
     {english: "Pocket", russian: "Карман"},
     {english: "Food", russian: "Еда"},
+    {english: "Shapes", russian: "Формы"},
+    {english: "Flowers", russian: "Цветы"},
 ];
 let completedSections = {};
 const images = {
@@ -187,6 +189,11 @@ const images = {
         },
     ],
     insects: [
+        {
+            name: "colorado beetle",
+            nameRussian: "колорадский жук",
+            source: "./images/insects/coloradobeetle.jpg"
+        },
         {
             name: "fly",
             nameRussian: "муха",
@@ -768,14 +775,34 @@ const images = {
     ],
     clothes: [
         {
+            name: "panama hat",
+            nameRussian: "шляпа",
+            source: "./images/clothes/panamahat.jpg"
+        },
+        {
             name: "cap",
             nameRussian: "кепка",
             source: "./images/clothes/cap.jpg"
         },
         {
+            name: "trousers",
+            nameRussian: "брюки",
+            source: "./images/clothes/trousers.jpg"
+        },
+        {
+            name: "jeans",
+            nameRussian: "джинсы",
+            source: "./images/clothes/jeans.jpg"
+        },
+        {
             name: "pants",
             nameRussian: "штаны",
             source: "./images/clothes/pants.jpg"
+        },
+        {
+            name: "belt",
+            nameRussian: "ремень",
+            source: "./images/clothes/belt.jpg"
         },
         {
             name: "hat",
@@ -1239,6 +1266,36 @@ const images = {
     ],
     tools:[
         {
+            name: "wrench",
+            nameRussian: "гаечный ключ",
+            source: "./images/tools/wrench.jpg"
+        },
+        {
+            name: "screw nut",
+            nameRussian: "гайка",
+            source: "./images/tools/screwnut.jpg"
+        },
+        {
+            name: "bolt",
+            nameRussian: "болт",
+            source: "./images/tools/bolt.jpg"
+        },
+        {
+            name: "hoe",
+            nameRussian: "тяпка",
+            source: "./images/tools/hoe.jpg"
+        },
+        {
+            name: "rake",
+            nameRussian: "грабли",
+            source: "./images/tools/rake.jpg"
+        },
+        {
+            name: "pitchfork",
+            nameRussian: "вилы",
+            source: "./images/tools/pitchfork.jpg"
+        },
+        {
             name: "screwdriver",
             nameRussian: "отвёртка",
             source: "./images/tools/screwdriver.jpg"
@@ -1281,6 +1338,11 @@ const images = {
             source: "./images/house/clock.jpg"
         },
         {
+            name: "light switch",
+            nameRussian: "выключатель света",
+            source: "./images/house/lightswitch.jpg"
+        },
+        {
             name: "chandelier",
             nameRussian: "люстра",
             source: "./images/house/chandelier.jpg"
@@ -1309,6 +1371,26 @@ const images = {
             name: "vase",
             nameRussian: "ваза",
             source: "./images/dishes/vase.jpg"
+        },
+        {
+            name: "blanket",
+            nameRussian: "одеяло",
+            source: "./images/house/blanket2.jpg"
+        },
+        {
+            name: "pillow",
+            nameRussian: "подушка",
+            source: "./images/house/pillow.jpg"
+        },
+        {
+            name: "mattress",
+            nameRussian: "матрас",
+            source: "./images/house/mattress2.jpg"
+        },
+        {
+            name: "sheet",
+            nameRussian: "простыня",
+            source: "./images/house/sheet.jpg"
         },
         {
             name: "house",
@@ -1443,6 +1525,11 @@ const images = {
             name: "ball",
             nameRussian: "мяч",
             source: "./images/yard/ball.jpg"
+        },
+        {
+            name: "skipping rope",
+            nameRussian: "скакалка",
+            source: "./images/yard/skippingrope.jpg"
         },
         {
             name: "rope",
@@ -1657,6 +1744,65 @@ const images = {
             nameRussian: "пицца",
             source: "./images/food/pizza.jpg"
         },
+    ],
+    shapes: [
+        {
+            name: "circle",
+            nameRussian: "круг",
+            source: "./images/shapes/circle.png"
+        },
+        {
+            name: "square",
+            nameRussian: "квадрат",
+            source: "./images/shapes/square.png"
+        },
+        {
+            name: "triangle",
+            nameRussian: "треугольник",
+            source: "./images/shapes/triangle.png"
+        },
+        {
+            name: "rhombus",
+            nameRussian: "ромб",
+            source: "./images/shapes/rhombus.png"
+        },
+        {
+            name: "rectangle",
+            nameRussian: "прямоугольник",
+            source: "./images/shapes/rectangle.png"
+        },
+        {
+            name: "trapezoid",
+            nameRussian: "трапеция",
+            source: "./images/shapes/trapezoid.png"
+        },
+    ],
+    flowers: [
+        {
+            name: "rose",
+            nameRussian: "роза",
+            source: "./images/flowers/rose.jpg"
+        },
+        {
+            name: "tulip",
+            nameRussian: "тюльпан",
+            source: "./images/flowers/tulip.jpg"
+        },
+        {
+            name: "chamomile",
+            nameRussian: "ромашка",
+            source: "./images/flowers/chamomile.jpg"
+        },
+        {
+            name: "sunflower",
+            nameRussian: "подсолнух",
+            source: "./images/flowers/sunflower.jpg"
+        },
+        {
+            name: "forget-me-not",
+            nameRussian: "незабудка",
+            source: "./images/flowers/forget-me-not.jpg"
+        },
     ]
 };
 let chosenSection = "";
@@ -1738,7 +1884,7 @@ const changeImage = () => {
             document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
         }
     } else if (count == chosenSection.length-1) {
-        closeExercise();
+        closeExercise(true);
     }
     // reset
     document.querySelector("#imageNameInput").value = "";
@@ -1813,7 +1959,7 @@ const showHint = () => {
 }
 
 
-const closeExercise = () => {
+const closeExercise = (lastImage=false) => {
     if (completedSections == null) {
         completedSections = {};
     }
@@ -1822,8 +1968,9 @@ const closeExercise = () => {
         completedSections[chosenCategory.english.toLowerCase()] = true;
     } else {
         delete completedSections[chosenCategory.english.toLowerCase()];
+    }if (lastImage == true) {
+        localStorage.setItem(`completedSections`, JSON.stringify(completedSections));
     }
-    localStorage.setItem(`completedSections`, JSON.stringify(completedSections));
     showSections();
 
     document.querySelector("#exercise").style.display = "none";
