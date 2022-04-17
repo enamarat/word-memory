@@ -1553,6 +1553,26 @@ const images = {
             nameRussian: "ворота",
             source: "./images/yard/gates.jpg"
         },
+        {
+            name: "watering can",
+            nameRussian: "лейка",
+            source: "./images/yard/wateringcan.jpg"
+        },
+        {
+            name: "barrel",
+            nameRussian: "бочка",
+            source: "./images/yard/barrel.jpg"
+        },
+        {
+            name: "hose",
+            nameRussian: "шланг",
+            source: "./images/yard/hose.jpg"
+        },
+        {
+            name: "greenhouse",
+            nameRussian: "теплица",
+            source: "./images/yard/greenhouse.jpg"
+        },
     ],
     music: [
         {
@@ -1689,6 +1709,11 @@ const images = {
             nameRussian: "билет",
             source: "./images/pocket/ticket.jpg"
         },
+        {
+            name: "umbrella",
+            nameRussian: "зонтик",
+            source: "./images/pocket/umbrella.jpg"
+        },
     ],
     food: [
         {
@@ -1805,13 +1830,13 @@ const images = {
             nameRussian: "незабудка",
             source: "./images/flowers/forget-me-not.jpg"
         },
+        {
+            name: "dandelion",
+            nameRussian: "одуванчик",
+            source: "./images/flowers/dandelion.jpg"
+        },
     ],
     poses: [
-        {
-            name: "standing",
-            nameRussian: "стоит",
-            source: "./images/poses/standing.jpg"
-        },
         {
             name: "sitting",
             nameRussian: "сидит",
@@ -1822,6 +1847,11 @@ const images = {
             nameRussian: "лежит",
             source: "./images/poses/lying.jpg"
         },
+        {
+            name: "standing",
+            nameRussian: "стоит",
+            source: "./images/poses/standing.jpg"
+        }
     ],
     actions: [
         {
@@ -1980,14 +2010,14 @@ const showExercise = (event) => {
     document.querySelector("#imageContainer").innerHTML = `<img class="objectImage" src=${chosenSection[count].source} alt=${chosenSection[count].name}>`;
 
     if (language == "english") {
-        if (chosenCategory.english.toLowerCase() == "actions") {
+        if (chosenCategory.english.toLowerCase() == "actions" || chosenCategory.english.toLowerCase() == "poses") {
             document.querySelector("#clarification").textContent = "What is it/he/she doing?";
             document.querySelector("#clarification").style.display = "block";
         }
         document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
         document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
     } else if (language == "russian") {
-        if (chosenCategory.english.toLowerCase() == "actions") {
+        if (chosenCategory.english.toLowerCase() == "actions" || chosenCategory.english.toLowerCase() == "poses") {
             document.querySelector("#clarification").textContent = "Что делает?";
             document.querySelector("#clarification").style.display = "block";
         }
