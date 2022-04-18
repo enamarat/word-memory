@@ -1404,555 +1404,555 @@ const images = {
         {
             name: "hair",
             nameRussian: "волосы",
-            source: "./images/body/hair2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/hair2.jpg"
         },
         {
             name: "nails",
             nameRussian: "ногти",
-            source: "./images/body/nails2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/nails2.jpg"
         },
         {
             name: "elbow",
             nameRussian: "локоть",
-            source: "./images/body/elbow2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/elbow2.jpg"
         },
         {
             name: "brows",
             nameRussian: "брови",
-            source: "./images/body/brows2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/brows2.jpg"
         },
         {
             name: "chest",
             nameRussian: "грудь",
-            source: "./images/body/chest2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/chest2.jpg"
         },
         {
             name: "abdomen",
             nameRussian: "живот",
-            source: "./images/body/abdomen2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/abdomen2.jpg"
         },
         {
             name: "back",
             nameRussian: "спина",
-            source: "./images/body/back2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/back2.jpg"
         },
         {
             name: "arm",
             nameRussian: "рука",
-            source: "./images/body/arm.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/arm.jpg"
         },
         {
             name: "leg",
             nameRussian: "нога",
-            source: "./images/body/leg.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/leg.jpg"
         },
         {
             name: "eyes",
             nameRussian: "глаза",
-            source: "./images/body/eyes2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/eyes2.jpg"
         },
         {
             name: "ear",
             nameRussian: "ухо",
-            source: "./images/body/ear.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/ear.jpg"
         },
         {
             name: "knee",
             nameRussian: "колено",
-            source: "./images/body/knee2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/knee2.jpg"
         },
         {
             name: "shoulder",
             nameRussian: "плечо",
-            source: "./images/body/shoulder2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/shoulder2.jpg"
         },
         {
             name: "teeth",
             nameRussian: "зубы",
-            source: "./images/body/teeth2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/teeth2.jpg"
         },
         {
             name: "lips",
             nameRussian: "губы",
-            source: "./images/body/lips.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/lips.jpg"
         },
         {
             name: "mouth",
             nameRussian: "рот",
-            source: "./images/body/mouth.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/mouth.jpg"
         },
         {
             name: "chin",
             nameRussian: "подбородок",
-            source: "./images/body/chin.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/chin.jpg"
         },
         {
             name: "cheeks",
             nameRussian: "щёки",
-            source: "./images/body/cheeks.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/cheeks.jpg"
         },
         {
             name: "tongue",
             nameRussian: "язык",
-            source: "./images/body/tongue2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/tongue2.jpg"
         },
         {
             name: "forehead",
             nameRussian: "лоб",
-            source: "./images/body/forehead2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/forehead2.jpg"
         },
         {
             name: "nose",
             nameRussian: "нос",
-            source: "./images/body/nose2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/nose2.jpg"
         },
         {
             name: "finger",
             nameRussian: "палец",
-            source: "./images/body/finger2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/finger2.jpg"
         },
         {
             name: "neck",
             nameRussian: "шея",
-            source: "./images/body/neck2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/neck2.jpg"
         },
         {
             name: "foot",
             nameRussian: "ступня",
-            source: "./images/body/foot.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/foot.jpg"
         },
     ],
     yard: [
         {
             name: "ball",
             nameRussian: "мяч",
-            source: "./images/yard/ball.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/ball.jpg"
         },
         {
             name: "skipping rope",
             nameRussian: "скакалка",
-            source: "./images/yard/skippingrope.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/skippingrope.jpg"
         },
         {
             name: "rope",
             nameRussian: "верёвка",
-            source: "./images/yard/rope.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/rope.jpg"
         },
         {
             name: "swing",
             nameRussian: "качели",
-            source: "./images/yard/swing.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/swing.jpg"
         },
         {
             name: "trampoline",
             nameRussian: "батут",
-            source: "./images/yard/trampoline.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/trampoline.jpg"
         },
         {
             name: "gates",
             nameRussian: "ворота",
-            source: "./images/yard/gates.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/gates.jpg"
         },
         {
             name: "watering can",
             nameRussian: "лейка",
-            source: "./images/yard/wateringcan.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/wateringcan.jpg"
         },
         {
             name: "barrel",
             nameRussian: "бочка",
-            source: "./images/yard/barrel.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/barrel.jpg"
         },
         {
             name: "hose",
             nameRussian: "шланг",
-            source: "./images/yard/hose.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/hose.jpg"
         },
         {
             name: "greenhouse",
             nameRussian: "теплица",
-            source: "./images/yard/greenhouse.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/greenhouse.jpg"
         },
     ],
     music: [
         {
             name: "guitar",
             nameRussian: "гитара",
-            source: "./images/music/guitar.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/music/guitar.jpg"
         },
         {
             name: "piano",
             nameRussian: "пианино",
-            source: "./images/music/piano.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/music/piano.jpg"
         },
         {
             name: "drum",
             nameRussian: "барабан",
-            source: "./images/music/drum.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/music/drum.jpg"
         },
         {
             name: "trumpet",
             nameRussian: "труба",
-            source: "./images/music/trumpet.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/music/trumpet.jpg"
         },
         {
             name: "flute",
             nameRussian: "флейта",
-            source: "./images/music/flute.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/music/flute.jpg"
         },
         {
             name: "violin",
             nameRussian: "скрипка",
-            source: "./images/music/violin.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/music/violin.jpg"
         },
         {
             name: "harp",
             nameRussian: "арфа",
-            source: "./images/music/harp.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/music/harp.jpg"
         },
         {
             name: "synth",
             nameRussian: "синтезатор",
-            source: "./images/music/synth.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/music/synth.jpg"
         },
     ],
     people: [
         {
             name: "woman",
             nameRussian: "женщина",
-            source: "./images/people/woman.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/people/woman.jpg"
         },
         {
             name: "man",
             nameRussian: "мужчина",
-            source: "./images/people/man.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/people/man.jpg"
         },
         {
             name: "girl",
             nameRussian: "девочка",
-            source: "./images/people/girl.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/people/girl.jpg"
         },
         {
             name: "boy",
             nameRussian: "мальчик",
-            source: "./images/people/boy.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/people/boy.jpg"
         },
         {
             name: "grandma",
             nameRussian: "бабушка",
-            source: "./images/people/grandma.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/people/grandma.jpg"
         },
         {
             name: "grandpa",
             nameRussian: "дедушка",
-            source: "./images/people/grandpa.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/people/grandpa.jpg"
         },
     ],
     pocket: [
         {
             name: "glasses",
             nameRussian: "очки",
-            source: "./images/pocket/glasses.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/glasses.jpg"
         },
         {
             name: "comb",
             nameRussian: "расчёска",
-            source: "./images/pocket/comb.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/comb.jpg"
         },
         {
             name: "key",
             nameRussian: "ключ",
-            source: "./images/pocket/key.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/key.jpg"
         },
         {
             name: "flashlight",
             nameRussian: "фонарик",
-            source: "./images/pocket/flashlight.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/flashlight.jpg"
         },
         {
             name: "napkin",
             nameRussian: "салфетка",
-            source: "./images/pocket/napkin.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/napkin.jpg"
         },
         {
             name: "handkerchief",
             nameRussian: "платок",
-            source: "./images/pocket/handkerchief.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/handkerchief.jpg"
         },
         {
             name: "coin",
             nameRussian: "монета",
-            source: "./images/pocket/coin.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/coin.jpg"
         },
         {
             name: "money",
             nameRussian: "деньги",
-            source: "./images/pocket/money.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/money.jpg"
         },
         {
             name: "lighter",
             nameRussian: "зажигалка",
-            source: "./images/pocket/lighter.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/lighter.jpg"
         },
         {
             name: "matches",
             nameRussian: "спички",
-            source: "./images/pocket/matches.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/matches.jpg"
         },
         {
             name: "wallet",
             nameRussian: "бумажник",
-            source: "./images/pocket/wallet.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/wallet.jpg"
         },
         {
             name: "ticket",
             nameRussian: "билет",
-            source: "./images/pocket/ticket.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/ticket.jpg"
         },
         {
             name: "umbrella",
             nameRussian: "зонтик",
-            source: "./images/pocket/umbrella.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/umbrella.jpg"
         },
     ],
     food: [
         {
             name: "cheese",
             nameRussian: "сыр",
-            source: "./images/food/cheese.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/cheese.jpg"
         },
         {
             name: "salami",
             nameRussian: "колбаса",
-            source: "./images/food/salami.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/salami.jpg"
         },
         {
             name: "bread",
             nameRussian: "хлеб",
-            source: "./images/food/bread.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/bread.jpg"
         },
         {
             name: "egg",
             nameRussian: "яйцо",
-            source: "./images/food/egg.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/egg.jpg"
         },
         {
             name: "rice",
             nameRussian: "рис",
-            source: "./images/food/rice.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/rice.jpg"
         },
         {
             name: "pasta",
             nameRussian: "макароны",
-            source: "./images/food/pasta.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/pasta.jpg"
         },
         {
             name: "water",
             nameRussian: "вода",
-            source: "./images/food/water.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/water.jpg"
         },
         {
             name: "tea",
             nameRussian: "чай",
-            source: "./images/food/tea.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/tea.jpg"
         },
         {
             name: "milk",
             nameRussian: "молоко",
-            source: "./images/food/milk.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/milk.jpg"
         },
         {
             name: "cookie",
             nameRussian: "печенье",
-            source: "./images/food/cookie.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/cookie.jpg"
         },
         {
             name: "pizza",
             nameRussian: "пицца",
-            source: "./images/food/pizza.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/pizza.jpg"
         },
     ],
     shapes: [
         {
             name: "circle",
             nameRussian: "круг",
-            source: "./images/shapes/circle.png"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shapes/circle.png"
         },
         {
             name: "square",
             nameRussian: "квадрат",
-            source: "./images/shapes/square.png"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shapes/square.png"
         },
         {
             name: "triangle",
             nameRussian: "треугольник",
-            source: "./images/shapes/triangle.png"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shapes/triangle.png"
         },
         {
             name: "rhombus",
             nameRussian: "ромб",
-            source: "./images/shapes/rhombus.png"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shapes/rhombus.png"
         },
         {
             name: "rectangle",
             nameRussian: "прямоугольник",
-            source: "./images/shapes/rectangle.png"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shapes/rectangle.png"
         },
         {
             name: "trapezoid",
             nameRussian: "трапеция",
-            source: "./images/shapes/trapezoid.png"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shapes/trapezoid.png"
         },
     ],
     flowers: [
         {
             name: "rose",
             nameRussian: "роза",
-            source: "./images/flowers/rose.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/flowers/rose.jpg"
         },
         {
             name: "tulip",
             nameRussian: "тюльпан",
-            source: "./images/flowers/tulip.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/flowers/tulip.jpg"
         },
         {
             name: "chamomile",
             nameRussian: "ромашка",
-            source: "./images/flowers/chamomile.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/flowers/chamomile.jpg"
         },
         {
             name: "sunflower",
             nameRussian: "подсолнух",
-            source: "./images/flowers/sunflower.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/flowers/sunflower.jpg"
         },
         {
             name: "forget-me-not",
             nameRussian: "незабудка",
-            source: "./images/flowers/forget-me-not.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/flowers/forget-me-not.jpg"
         },
         {
             name: "dandelion",
             nameRussian: "одуванчик",
-            source: "./images/flowers/dandelion.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/flowers/dandelion.jpg"
         },
     ],
     poses: [
         {
             name: "sitting",
             nameRussian: "сидит",
-            source: "./images/poses/sitting.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/poses/sitting.jpg"
         },
         {
             name: "lying",
             nameRussian: "лежит",
-            source: "./images/poses/lying.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/poses/lying.jpg"
         },
         {
             name: "standing",
             nameRussian: "стоит",
-            source: "./images/poses/standing.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/poses/standing.jpg"
         }
     ],
     actions: [
         {
             name: "drinking",
             nameRussian: "пьёт",
-            source: "./images/actions/drinking.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/drinking.gif"
         },
         {
             name: "eating",
             nameRussian: "ест",
-            source: "./images/actions/eating.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/eating.gif"
         },
         {
             name: "writing",
             nameRussian: "пишет",
-            source: "./images/actions/writing.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/writing.gif"
         },
         {
             name: "drawing",
             nameRussian: "рисует",
-            source: "./images/actions/drawing.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/drawing.gif"
         },
         {
             name: "playing",
             nameRussian: "играет",
-            source: "./images/actions/playing.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/playing.gif"
         },
         {
             name: "cutting",
             nameRussian: "режет",
-            source: "./images/actions/cutting.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/cutting.gif"
         },
         {
             name: "sawing",
             nameRussian: "пилит",
-            source: "./images/actions/sawing.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/sawing.gif"
         },
         {
             name: "sitting down",
             nameRussian: "садится",
-            source: "./images/actions/sittingdown.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/sittingdown.gif"
         },
         {
             name: "getting up",
             nameRussian: "встаёт",
-            source: "./images/actions/gettingup.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/gettingup.gif"
         },
         {
             name: "walking",
             nameRussian: "идёт",
-            source: "./images/actions/walking.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/walking.gif"
         },
         {
             name: "running",
             nameRussian: "бежит",
-            source: "./images/actions/running.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/running.gif"
         },
         {
             name: "jumping",
             nameRussian: "прыгает",
-            source: "./images/actions/jumping.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/jumping.gif"
         },
         {
             name: "throwing",
             nameRussian: "бросает",
-            source: "./images/actions/throwing.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/throwing.gif"
         },
         {
             name: "reading",
             nameRussian: "читает",
-            source: "./images/actions/reading.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/reading.gif"
         },
         {
             name: "digging",
             nameRussian: "копает",
-            source: "./images/actions/digging.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/digging.gif"
         },
         {
             name: "giving",
             nameRussian: "отдаёт",
-            source: "./images/actions/giving.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/giving.gif"
         },
         {
             name: "putting on",
             nameRussian: "надевает",
-            source: "./images/actions/puttingon.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/puttingon.gif"
         },
         {
             name: "taking off",
             nameRussian: "снимает",
-            source: "./images/actions/takingoff.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/takingoff.gif"
         },
         {
             name: "putting on",
             nameRussian: "надевает",
-            source: "./images/actions/puttingon2.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/puttingon2.gif"
         },
         {
             name: "taking off",
             nameRussian: "снимает",
-            source: "./images/actions/takingoff2.gif"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/takingoff2.gif"
         },
     ]
 };
@@ -2014,11 +2014,19 @@ const showExercise = (event) => {
             document.querySelector("#clarification").textContent = "What is it/he/she doing?";
             document.querySelector("#clarification").style.display = "block";
         }
+        if (chosenCategory.english.toLowerCase() == "colors") {
+            document.querySelector("#clarification").textContent = "What color is it?";
+            document.querySelector("#clarification").style.display = "block";
+        }
         document.querySelector("#name").textContent = `${chosenSection[count].name.toUpperCase()}`;
         document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
     } else if (language == "russian") {
         if (chosenCategory.english.toLowerCase() == "actions" || chosenCategory.english.toLowerCase() == "poses") {
             document.querySelector("#clarification").textContent = "Что делает?";
+            document.querySelector("#clarification").style.display = "block";
+        }
+        if (chosenCategory.english.toLowerCase() == "colors") {
+            document.querySelector("#clarification").textContent = "Какой цвет?";
             document.querySelector("#clarification").style.display = "block";
         }
         document.querySelector("#name").textContent = `${chosenSection[count].nameRussian.toUpperCase()}`; 
@@ -2093,7 +2101,13 @@ const changeLanguage = () => {
         document.querySelector("#language").textContent = "ENG";
         localStorage.setItem(`language`, JSON.stringify(language));
         document.querySelector("#hint").textContent = "Подсказка"; 
-        document.querySelector("#clarification").textContent = "Что делает?";
+        
+        if (chosenCategory.english.toLowerCase() == "actions" || chosenCategory.english.toLowerCase() == "poses") {
+            document.querySelector("#clarification").textContent = "Что делает?";
+        }
+        if (chosenCategory.english.toLowerCase() == "colors") {
+            document.querySelector("#clarification").textContent = "Какой цвет?";
+        }
         
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
@@ -2104,7 +2118,13 @@ const changeLanguage = () => {
         document.querySelector("#language").textContent = "RUS";
         localStorage.setItem(`language`, JSON.stringify(language));
         document.querySelector("#hint").textContent = "Hint";
-        document.querySelector("#clarification").textContent = "What is it/he/she doing?";
+        
+        if (chosenCategory.english.toLowerCase() == "actions" || chosenCategory.english.toLowerCase() == "poses") {
+            document.querySelector("#clarification").textContent = "What is it/he/she doing?";
+        }
+        if (chosenCategory.english.toLowerCase() == "colors") {
+            document.querySelector("#clarification").textContent = "What color is it?";
+        }
         
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
