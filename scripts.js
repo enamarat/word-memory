@@ -37,1367 +37,1367 @@ const images = {
         {
             name: "koala",
             nameRussian: "коала",
-            source: "./images/animals/koala.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/koala.jpg"
         },
         {
             name: "wolf",
             nameRussian: "волк",
-            source: "./images/animals/wolf.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/wolf.jpg"
         },
         {
             name: "fox",
             nameRussian: "лиса",
-            source: "./images/animals/fox.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/fox.jpg"
         },
         {
             name: "racoon",
             nameRussian: "енот",
-            source: "./images/animals/racoon.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/racoon.jpg"
         },
         {
             name: "pig",
             nameRussian: "свинья",
-            source: "./images/animals/pig.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/pig.jpg"
         },
         {
             name: "panda",
             nameRussian: "панда",
-            source: "./images/animals/panda.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/panda.jpg"
         },
         {
             name: "bull",
             nameRussian: "бык",
-            source: "./images/animals/bull.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/bull.jpg"
         },
         {
             name: "rhino",
             nameRussian: "носорог",
-            source: "./images/animals/rhino.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/rhino.jpg"
         },
         {
             name: "zebra",
             nameRussian: "зебра",
-            source: "./images/animals/zebra.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/zebra.jpg"
         },
         {
             name: "camel",
             nameRussian: "верблюд",
-            source: "./images/animals/camel.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/camel.jpg"
         },
         {
             name: "horse",
             nameRussian: "лошадь",
-            source: "./images/animals/horse.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/horse.jpg"
         },
         {
             name: "ape",
             nameRussian: "обезьяна",
-            source: "./images/animals/ape.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/ape.jpg"
         },
         {
             name: "cat",
             nameRussian: "кот",
-            source: "./images/animals/cat.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/cat.jpg"
         },
         {
             name: "kangaroo",
             nameRussian: "кенгуру",
-            source: "./images/animals/kangaroo.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/kangaroo.jpg"
         },
         {
             name: "dog",
             nameRussian: "собака",
-            source: "./images/animals/dog.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/dog.jpg"
         },
         {
             name: "cow",
             nameRussian: "корова",
-            source: "./images/animals/cow.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/cow.jpg"
         },
         {
             name: "hare",
             nameRussian: "заяц",
-            source: "./images/animals/hare.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/hare.jpg"
         },
         {
             name: "mouse",
             nameRussian: "мышь",
-            source: "./images/animals/mouse.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/mouse.jpg"
         },
         {
             name: "tiger",
             nameRussian: "тигр",
-            source: "./images/animals/tiger.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/tiger.jpg"
         },
         {
             name: "lion",
             nameRussian: "лев",
-            source: "./images/animals/lion.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/lion.jpg"
         },
         {
             name: "elephant",
             nameRussian: "слон",
-            source: "./images/animals/elephant.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/elephant.jpg"
         },
         {
             name: "goat",
             nameRussian: "коза",
-            source: "./images/animals/goat.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/goat.jpg"
         },
         {
             name: "boar",
             nameRussian: "кабан",
-            source: "./images/animals/boar.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/boar.jpg"
         },
         {
             name: "hedgehog",
             nameRussian: "ёж",
-            source: "./images/animals/hedgehog.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/hedgehog.jpg"
         },
         {
             name: "deer",
             nameRussian: "олень",
-            source: "./images/animals/deer.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/deer.jpg"
         },
         {
             name: "squirrel",
             nameRussian: "белка",
-            source: "./images/animals/squirrel.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/squirrel.jpg"
         },
         {
             name: "giraffe",
             nameRussian: "жираф",
-            source: "./images/animals/giraffe.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/giraffe.jpg"
         },
         {
             name: "bear",
             nameRussian: "медведь",
-            source: "./images/animals/bear.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/bear.jpg"
         },
         {
             name: "white bear",
             nameRussian: "белый медведь",
-            source: "./images/animals/whiteBear.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/whiteBear.jpg"
         },
         {
             name: "rat",
             nameRussian: "крыса",
-            source: "./images/animals/rat.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/rat.jpg"
         },
         {
             name: "porcupine",
             nameRussian: "дикобраз",
-            source: "./images/animals/porcupine.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/porcupine.jpg"
         },
     ],
     insects: [
         {
             name: "colorado beetle",
             nameRussian: "колорадский жук",
-            source: "./images/insects/coloradobeetle.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/coloradobeetle.jpg"
         },
         {
             name: "fly",
             nameRussian: "муха",
-            source: "./images/insects/fly.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/fly.jpg"
         },
         {
             name: "butterfly",
             nameRussian: "бабочка",
-            source: "./images/insects/butterfly.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/butterfly.jpg"
         },
         {
             name: "ant",
             nameRussian: "муравей",
-            source: "./images/insects/ant.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/ant.jpg"
         },
         {
             name: "dragonfly",
             nameRussian: "стрекоза",
-            source: "./images/insects/dragonfly.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/dragonfly.jpg"
         },
         {
             name: "bee",
             nameRussian: "пчела",
-            source: "./images/insects/bee.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/bee.jpg"
         },
         {
             name: "wasp",
             nameRussian: "оса",
-            source: "./images/insects/wasp.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/wasp.jpg"
         },
         {
             name: "mosquito",
             nameRussian: "комар",
-            source: "./images/insects/mosquito.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/mosquito.jpg"
         },
         {
             name: "grasshoper",
             nameRussian: "кузнечик",
-            source: "./images/insects/grasshoper.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/grasshoper.jpg"
         },
         {
             name: "ladybug",
             nameRussian: "божья коровка",
-            source: "./images/insects/ladybug.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/ladybug.jpg"
         },
         {
             name: "cockroach",
             nameRussian: "таракан",
-            source: "./images/insects/cockroach.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/cockroach.jpg"
         },
     ],
     reptiles: [
         {
             name: "crocodile",
             nameRussian: "крокодил",
-            source: "./images/reptiles/crocodile.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/reptiles/crocodile.jpg"
         },
         {
             name: "lizzard",
             nameRussian: "ящерица",
-            source: "./images/reptiles/lizzard.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/reptiles/lizzard.jpg"
         },
         {
             name: "snake",
             nameRussian: "змея",
-            source: "./images/reptiles/snake.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/reptiles/snake.jpg"
         },
         {
             name: "turtle",
             nameRussian: "черепаха",
-            source: "./images/reptiles/turtle.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/reptiles/turtle.jpg"
         }
     ],
     birds: [
         {
             name: "chicken",
             nameRussian: "курица",
-            source: "./images/birds/chicken.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/chicken.jpg"
         },
         {
             name: "rooster",
             nameRussian: "петух",
-            source: "./images/birds/rooster.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/rooster.jpg"
         },
         {
             name: "chick",
             nameRussian: "цыплёнок",
-            source: "./images/birds/chick.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/chick.jpg"
         },
         {
             name: "sparrow",
             nameRussian: "воробей",
-            source: "./images/birds/sparrow.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/sparrow.jpg"
         },
         {
             name: "wagtail",
             nameRussian: "трясогузка",
-            source: "./images/birds/wagtail.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/wagtail.jpg"
         },
         {
             name: "hoodedCrow",
             nameRussian: "ворона",
-            source: "./images/birds/hoodedCrow.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/hoodedCrow.jpg"
         },
         {
             name: "magpie",
             nameRussian: "сорока",
-            source: "./images/birds/magpie.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/magpie.jpg"
         },
         {
             name: "pigeon",
             nameRussian: "голубь",
-            source: "./images/birds/pigeon.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/pigeon.jpg"
         },
         {
             name: "duck",
             nameRussian: "утка",
-            source: "./images/birds/duck.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/duck.jpg"
         },
         {
             name: "swallow",
             nameRussian: "ласточка",
-            source: "./images/birds/swallow.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/swallow.jpg"
         },
         {
             name: "gull",
             nameRussian: "чайка",
-            source: "./images/birds/gull.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/gull.jpg"
         },
         {
             name: "pelican",
             nameRussian: "пеликан",
-            source: "./images/birds/pelican.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/pelican.jpg"
         },
         {
             name: "penguin",
             nameRussian: "пингвин",
-            source: "./images/birds/penguin.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/penguin.jpg"
         },
         {
             name: "peacock",
             nameRussian: "павлин",
-            source: "./images/birds/peacock.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/peacock.jpg"
         },
         {
             name: "parrot",
             nameRussian: "попугай",
-            source: "./images/birds/parrot.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/parrot.jpg"
         },
         {
             name: "eagle",
             nameRussian: "орёл",
-            source: "./images/birds/eagle.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/eagle.jpg"
         },
         {
             name: "turkey",
             nameRussian: "индюк",
-            source: "./images/birds/turkey.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/turkey.jpg"
         },
         {
             name: "goose",
             nameRussian: "гусь",
-            source: "./images/birds/goose.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/goose.jpg"
         },
         {
             name: "swan",
             nameRussian: "лебедь",
-            source: "./images/birds/swan.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/swan.jpg"
         },
         {
             name: "flamingo",
             nameRussian: "фламинго",
-            source: "./images/birds/flamingo.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/flamingo.jpg"
         },
         {
             name: "woodpecker",
             nameRussian: "дятел",
-            source: "./images/birds/woodpecker.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/woodpecker.jpg"
         },
         {
             name: "crane",
             nameRussian: "журавль",
-            source: "./images/birds/crane.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/crane.jpg"
         },
         {
             name: "ostrich",
             nameRussian: "страус",
-            source: "./images/birds/ostrich.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/ostrich.jpg"
         },
     ],
     fish: [
         {
             name: "shark",
             nameRussian: "акула",
-            source: "./images/fish/shark.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fish/shark.jpg"
         },
         {
             name: "whale",
             nameRussian: "кит",
-            source: "./images/fish/whale.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fish/whale.jpg"
         },
         {
             name: "dolphin",
             nameRussian: "дельфин",
-            source: "./images/fish/dolphin.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fish/dolphin.jpg"
         },
         {
             name: "carp",
             nameRussian: "карп",
-            source: "./images/fish/carp.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fish/carp.jpg"
         },
         {
             name: "pike",
             nameRussian: "щука",
-            source: "./images/fish/pike.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fish/pike.jpg"
         },
         {
             name: "catfish",
             nameRussian: "сом",
-            source: "./images/fish/catfish.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fish/catfish.jpg"
         },
         {
             name: "herring",
             nameRussian: "сельдь",
-            source: "./images/fish/herring.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fish/herring.jpg"
         },
     ],
     transport: [
         {
             name: "boat",
             nameRussian: "лодка",
-            source: "./images/transport/boat.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/boat.jpg"
         },
         {
             name: "rocket",
             nameRussian: "ракета",
-            source: "./images/transport/rocket.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/rocket.jpg"
         },
         {
             name: "submarine",
             nameRussian: "подводная лодка",
-            source: "./images/transport/submarine.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/submarine.jpg"
         },
         {
             name: "motorcycle",
             nameRussian: "мотоцикл",
-            source: "./images/transport/motorcycle.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/motorcycle.jpg"
         },
         {
             name: "ship",
             nameRussian: "корабль",
-            source: "./images/transport/ship.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/ship.jpg"
         },
         {
             name: "bus",
             nameRussian: "автобус",
-            source: "./images/transport/bus.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/bus.jpg"
         },
         {
             name: "truck",
             nameRussian: "грузовик",
-            source: "./images/transport/truck.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/truck.jpg"
         },
         {
             name: "car",
             nameRussian: "машина",
-            source: "./images/transport/car.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/car.jpg"
         },
         {
             name: "train",
             nameRussian: "поезд",
-            source: "./images/transport/train.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/train.jpg"
         },
         {
             name: "scooter",
             nameRussian: "самокат",
-            source: "./images/transport/scooter.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/scooter.jpg"
         },
         {
             name: "plane",
             nameRussian: "самолёт",
-            source: "./images/transport/plane.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/plane.jpg"
         },
         {
             name: "bicycle",
             nameRussian: "велосипед",
-            source: "./images/transport/bicycle.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/bicycle.jpg"
         },
         {
             name: "helicopter",
             nameRussian: "вертолёт",
-            source: "./images/transport/helicopter.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/helicopter.jpg"
         },
     ],
     furniture: [
         {
             name: "bed",
             nameRussian: "кровать",
-            source: "./images/furniture/bed.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/furniture/bed.jpg"
         },
         {
             name: "sofa",
             nameRussian: "диван",
-            source: "./images/furniture/sofa.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/furniture/sofa.jpg"
         },
         {
             name: "cupboard",
             nameRussian: "шкаф",
-            source: "./images/furniture/cupboard.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/furniture/cupboard.jpg"
         },
         {
             name: "armchair",
             nameRussian: "кресло",
-            source: "./images/furniture/armchair.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/furniture/armchair.jpg"
         },
         {
             name: "commode",
             nameRussian: "комод",
-            source: "./images/furniture/commode.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/furniture/commode.jpg"
         },
         {
             name: "table",
             nameRussian: "стол",
-            source: "./images/furniture/table.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/furniture/table.jpg"
         },
         {
             name: "chair",
             nameRussian: "стул",
-            source: "./images/furniture/chair.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/furniture/chair.jpg"
         },
     ],
     dishes: [
         {
             name: "pot",
             nameRussian: "кастрюля",
-            source: "./images/dishes/pot.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/pot.jpg"
         },
         {
             name: "pan",
             nameRussian: "сковорода",
-            source: "./images/dishes/pan.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/pan.jpg"
         },
         {
             name: "cup",
             nameRussian: "чашка",
-            source: "./images/dishes/cup.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/cup.jpg"
         },
         {
             name: "mug",
             nameRussian: "кружка",
-            source: "./images/dishes/mug.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/mug.jpg"
         },
         {
             name: "jug",
             nameRussian: "кувшин",
-            source: "./images/dishes/jug.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/jug.jpg"
         },
         {
             name: "bottle",
             nameRussian: "бутылка",
-            source: "./images/dishes/bottle.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/bottle.jpg"
         },
         {
             name: "glass",
             nameRussian: "стакан",
-            source: "./images/dishes/glass.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/glass.jpg"
         },
         {
             name: "plate",
             nameRussian: "тарелка",
-            source: "./images/dishes/plate.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/plate.jpg"
         },
         {
             name: "bowl",
             nameRussian: "миска",
-            source: "./images/dishes/bowl.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/bowl.jpg"
         },
         {
             name: "kettle",
             nameRussian: "чайник",
-            source: "./images/dishes/kettle.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/kettle.jpg"
         },
         {
             name: "fork",
             nameRussian: "вилка",
-            source: "./images/dishes/fork.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/fork.jpg"
         },
         {
             name: "knife",
             nameRussian: "нож",
-            source: "./images/dishes/knife.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/knife.jpg"
         },
         {
             name: "spoon",
             nameRussian: "ложка",
-            source: "./images/dishes/spoon.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/spoon.jpg"
         },
         {
             name: "container",
             nameRussian: "контейнер",
-            source: "./images/dishes/container.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/dishes/container.jpg"
         },
     ],
     fruit: [
         {
             name: "pineapple",
             nameRussian: "ананас",
-            source: "./images/fruit/pineapple.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/pineapple.jpg"
         },
         {
             name: "grapefruit",
             nameRussian: "грейпфрут",
-            source: "./images/fruit/grapefruit.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/grapefruit.jpg"
         },
         {
             name: "pear",
             nameRussian: "груша",
-            source: "./images/fruit/pear.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/pear.jpg"
         },
         {
             name: "peach",
             nameRussian: "персик",
-            source: "./images/fruit/peach.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/peach.jpg"
         },
         {
             name: "apricot",
             nameRussian: "абрикос",
-            source: "./images/fruit/apricot.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/apricot.jpg"
         },
         {
             name: "plum",
             nameRussian: "слива",
-            source: "./images/fruit/plum.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/plum.jpg"
         },
         {
             name: "cherry",
             nameRussian: "вишня",
-            source: "./images/fruit/cherry.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/cherry.jpg"
         },
         {
             name: "melon",
             nameRussian: "дыня",
-            source: "./images/fruit/melon.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/melon.jpg"
         },
         {
             name: "watermelon",
             nameRussian: "арбуз",
-            source: "./images/fruit/watermelon.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/watermelon.jpg"
         },
         {
             name: "banana",
             nameRussian: "банан",
-            source: "./images/fruit/banana.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/banana.jpg"
         },
         {
             name: "pomegranate",
             nameRussian: "гранат",
-            source: "./images/fruit/pomegranate.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/pomegranate.jpg"
         },
         {
             name: "apple",
             nameRussian: "яблоко",
-            source: "./images/fruit/apple.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/apple.jpg"
         },
         {
             name: "lemon",
             nameRussian: "лимон",
-            source: "./images/fruit/lemon.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/lemon.jpg"
         },
         {
             name: "orange",
             nameRussian: "апельсин",
-            source: "./images/fruit/orange.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/orange.jpg"
         },
         {
             name: "mandarine",
             nameRussian: "мандарин",
-            source: "./images/fruit/mandarine.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/mandarine.jpg"
         },
         {
             name: "kiwi",
             nameRussian: "киви",
-            source: "./images/fruit/kiwi.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/kiwi.jpg"
         },
         {
             name: "grape",
             nameRussian: "виноград",
-            source: "./images/fruit/grape.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/grape.jpg"
         },
         {
             name: "strawberry",
             nameRussian: "клубника",
-            source: "./images/fruit/strawberry.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/fruit/strawberry.jpg"
         }
     ],
     vegetables: [
         {
             name: "pepper",
             nameRussian: "перец",
-            source: "./images/vegetables/pepper.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/pepper.jpg"
         },
         {
             name: "pumpkin",
             nameRussian: "тыква",
-            source: "./images/vegetables/pumpkin.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/pumpkin.jpg"
         },
         {
             name: "carrot",
             nameRussian: "морковь",
-            source: "./images/vegetables/carrot.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/carrot.jpg"
         },
         {
             name: "potato",
             nameRussian: "картофель",
-            source: "./images/vegetables/potato.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/potato.jpg"
         },
         {
             name: "cucumber",
             nameRussian: "огурец",
-            source: "./images/vegetables/cucumber.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/cucumber.jpg"
         },
         {
             name: "tomato",
             nameRussian: "помидор",
-            source: "./images/vegetables/tomato.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/tomato.jpg"
         },
         {
             name: "cabbage",
             nameRussian: "капуста",
-            source: "./images/vegetables/cabbage.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/cabbage.jpg"
         },
         {
             name: "onion",
             nameRussian: "лук",
-            source: "./images/vegetables/onion.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/onion.jpg"
         },
         {
             name: "radish",
             nameRussian: "редиска",
-            source: "./images/vegetables/radish.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/radish.jpg"
         },
         {
             name: "beet",
             nameRussian: "свекла",
-            source: "./images/vegetables/beet.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/beet.jpg"
         },
     ],
     berries: [
         {
             name: "redcurrant",
             nameRussian: "красная смородина",
-            source: "./images/berries/redcurrant.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/berries/redcurrant.jpg"
         },
         {
             name: "blackcurrant",
             nameRussian: "чёрная смородина",
-            source: "./images/berries/blackcurrant.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/berries/blackcurrant.jpg"
         },
         {
             name: "blackberry",
             nameRussian: "ежевика",
-            source: "./images/berries/blackberry.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/berries/blackberry.jpg"
         },
         {
             name: "blueberry",
             nameRussian: "черника",
-            source: "./images/berries/blueberry.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/berries/blueberry.jpg"
         },
         {
             name: "raspberry",
             nameRussian: "малина",
-            source: "./images/berries/raspberry.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/berries/raspberry.jpg"
         },
         {
             name: "gooseberry",
             nameRussian: "крыжовник",
-            source: "./images/berries/gooseberry.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/berries/gooseberry.jpg"
         },
     ],
     clothes: [
         {
             name: "panama hat",
             nameRussian: "шляпа",
-            source: "./images/clothes/panamahat.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/panamahat.jpg"
         },
         {
             name: "cap",
             nameRussian: "кепка",
-            source: "./images/clothes/cap.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/cap.jpg"
         },
         {
             name: "trousers",
             nameRussian: "брюки",
-            source: "./images/clothes/trousers.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/trousers.jpg"
         },
         {
             name: "jeans",
             nameRussian: "джинсы",
-            source: "./images/clothes/jeans.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/jeans.jpg"
         },
         {
             name: "pants",
             nameRussian: "штаны",
-            source: "./images/clothes/pants.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/pants.jpg"
         },
         {
             name: "belt",
             nameRussian: "ремень",
-            source: "./images/clothes/belt.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/belt.jpg"
         },
         {
             name: "hat",
             nameRussian: "шапка",
-            source: "./images/clothes/hat.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/hat.jpg"
         },
         {
             name: "robe",
             nameRussian: "халат",
-            source: "./images/clothes/robe.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/robe.jpg"
         },
         {
             name: "sweater",
             nameRussian: "свитер",
-            source: "./images/clothes/sweater.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/sweater.jpg"
         },
         {
             name: "sweatshirt",
             nameRussian: "кофта",
-            source: "./images/clothes/sweatshirt.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/sweatshirt.jpg"
         },
         {
             name: "scarf",
             nameRussian: "шарф",
-            source: "./images/clothes/scarf.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/scarf.jpg"
         },
         {
             name: "underwear",
             nameRussian: "трусы",
-            source: "./images/clothes/underwear.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/underwear.jpg"
         },
         {
             name: "shirt",
             nameRussian: "рубашка",
-            source: "./images/clothes/shirt.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/shirt.jpg"
         },
         {
             name: "dress",
             nameRussian: "платье",
-            source: "./images/clothes/dress.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/dress.jpg"
         },
         {
             name: "skirt",
             nameRussian: "юбка",
-            source: "./images/clothes/skirt.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/skirt.jpg"
         },
         {
             name: "gloves",
             nameRussian: "перчатки",
-            source: "./images/clothes/gloves.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/gloves.jpg"
         },
         {
             name: "socks",
             nameRussian: "носки",
-            source: "./images/clothes/socks.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/socks.jpg"
         },
         {
             name: "t-shirt",
             nameRussian: "майка",
-            source: "./images/clothes/tshirt.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/tshirt.jpg"
         },
         {
             name: "jacket",
             nameRussian: "куртка",
-            source: "./images/clothes/jacket.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/jacket.jpg"
         },
         {
             name: "shorts",
             nameRussian: "шорты",
-            source: "./images/clothes/shorts.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/clothes/shorts.jpg"
         }
     ],
     shoes: [
         {
             name: "boots",
             nameRussian: "сапоги",
-            source: "./images/shoes/boots.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shoes/boots.jpg"
         },
         {
             name: "sneakers",
             nameRussian: "кроссовки",
-            source: "./images/shoes/sneakers.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shoes/sneakers.jpg"
         },
         {
             name: "blucher",
             nameRussian: "туфли",
-            source: "./images/shoes/blucher.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shoes/blucher.jpg"
         },
         {
             name: "slippers",
             nameRussian: "тапочки",
-            source: "./images/shoes/slippers.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shoes/slippers.jpg"
         },
         {
             name: "sandals",
             nameRussian: "сандалии",
-            source: "./images/shoes/sandals.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shoes/sandals.jpg"
         },
         {
-            name: "winterBoots",
+            name: "winter boots",
             nameRussian: "ботинки",
-            source: "./images/shoes/winterBoots.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shoes/winterBoots.jpg"
         }
     ],
     appliances: [
         {
             name: "mower",
             nameRussian: "косилка",
-            source: "./images/appliances/mower.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/mower.jpg"
         },
         {
             name: "lamp",
             nameRussian: "лампа",
-            source: "./images/appliances/lamp.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/lamp.jpg"
         },
         {
             name: "phone",
             nameRussian: "телефон",
-            source: "./images/appliances/phone.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/phone.jpg"
         },
         {
             name: "vacuum cleaner",
             nameRussian: "пылесос",
-            source: "./images/appliances/vacuumCleaner.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/vacuumCleaner.jpg"
         },
         {
             name: "television",
             nameRussian: "телевизор",
-            source: "./images/appliances/television.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/television.jpg"
         },
         {
             name: "fridge",
             nameRussian: "холодильник",
-            source: "./images/appliances/fridge.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/fridge.jpg"
         },
         {
             name: "stove",
             nameRussian: "плита",
-            source: "./images/appliances/stove.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/stove.jpg"
         },
         {
             name: "laptop",
             nameRussian: "компьютер",
-            source: "./images/appliances/laptop.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/laptop.jpg"
         },
         {
             name: "washing machine",
             nameRussian: "стиральная машина",
-            source: "./images/appliances/washingmachine.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/washingmachine.jpg"
         },
         {
             name: "kettle",
-            nameRussian: "электрический чайник",
-            source: "./images/appliances/kettle.jpg"
+            nameRussian: "чайник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/kettle.jpg"
         },
         {
             name: "iron",
             nameRussian: "утюг",
-            source: "./images/appliances/iron.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/iron.jpg"
         },
         {
             name: "fan",
             nameRussian: "вентилятор",
-            source: "./images/appliances/fan.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/fan.jpg"
         },
         {
             name: "remoteController",
             nameRussian: "пульт",
-            source: "./images/appliances/remoteController.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/remoteController.jpg"
         },
         {
             name: "battery",
             nameRussian: "батарейка",
-            source: "./images/appliances/battery.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/battery.jpg"
         },
         {
             name: "microwave oven",
             nameRussian: "микроволновая печь",
-            source: "./images/appliances/microwaveOven.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/microwaveOven.jpg"
         },
         {
             name: "scales",
             nameRussian: "весы",
-            source: "./images/appliances/scales.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/scales.jpg"
         },
         {
             name: "electronic scales",
             nameRussian: "электронные весы",
-            source: "./images/appliances/scales2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/scales2.jpg"
         },
         {
             name: "mixer",
             nameRussian: "смеситель",
-            source: "./images/appliances/mixer.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/mixer.jpg"
         },
         {
             name: "hair dryer",
             nameRussian: "фен",
-            source: "./images/appliances/hairdryer.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/hairdryer.jpg"
         },
         {
             name: "electric razor",
             nameRussian: "электрическая бритва",
-            source: "./images/appliances/electricrazor.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/electricrazor.jpg"
         },
         {
             name: "grill",
             nameRussian: "гриль",
-            source: "./images/appliances/grill.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/appliances/grill.jpg"
         }
     ],
     colors: [
         {
             name: "green",
             nameRussian: "зелёный",
-            source: "./images/colors/green.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/green.jpg"
         },
         {
             name: "blue",
             nameRussian: "синий",
-            source: "./images/colors/blue.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/blue.jpg"
         },
         {
             name: "red",
             nameRussian: "красный",
-            source: "./images/colors/red.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/red.jpg"
         },
         {
             name: "yellow",
             nameRussian: "жёлтый",
-            source: "./images/colors/yellow.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/yellow.jpg"
         },
         {
             name: "orange",
             nameRussian: "оранжевый",
-            source: "./images/colors/orange.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/orange.jpg"
         },
         {
             name: "black",
             nameRussian: "чёрный",
-            source: "./images/colors/black.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/black.jpg"
         },
         {
             name: "brown",
             nameRussian: "коричневый",
-            source: "./images/colors/brown.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/brown.jpg"
         },
         {
             name: "pink",
             nameRussian: "розовый",
-            source: "./images/colors/pink.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/pink.jpg"
         },
         {
             name: "violet",
             nameRussian: "фиолетовый",
-            source: "./images/colors/violet.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/violet.jpg"
         },
         {
             name: "gray",
             nameRussian: "серый",
-            source: "./images/colors/gray.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/gray.jpg"
         },
         {
             name: "white",
             nameRussian: "белый",
-            source: "./images/colors/white.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/white.jpg"
         },
     ],
     bathroom: [
         {
             name: "towel",
             nameRussian: "полотенце",
-            source: "./images/bathroom/towel.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/bathroom/towel.jpg"
         },
         {
             name: "sink",
             nameRussian: "раковина",
-            source: "./images/bathroom/sink.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/bathroom/sink.jpg"
         },
         {
             name: "toilet",
             nameRussian: "туалет",
-            source: "./images/bathroom/toilet.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/bathroom/toilet.jpg"
         },
         {
             name: "toilet paper",
             nameRussian: "туалетная бумага",
-            source: "./images/bathroom/toiletpaper.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/bathroom/toiletpaper.jpg"
         },
         {
             name: "soap",
             nameRussian: "мыло",
-            source: "./images/bathroom/soap.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/bathroom/soap.jpg"
         },
         {
             name: "toothbrush",
             nameRussian: "зубная щётка",
-            source: "./images/bathroom/toothbrush.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/bathroom/toothbrush.jpg"
         },
         {
             name: "toothpaste",
             nameRussian: "зубная паста",
-            source: "./images/bathroom/toothpaste.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/bathroom/toothpaste.jpg"
         },
         {
             name: "razor",
             nameRussian: "бритва",
-            source: "./images/bathroom/razor.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/bathroom/razor.jpg"
         },
     ],
     school: [
         {
             name: "ruler",
             nameRussian: "линейка",
-            source: "./images/school/ruler.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/school/ruler.jpg"
         },
         {
             name: "pen",
             nameRussian: "ручка",
-            source: "./images/school/pen.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/school/pen.jpg"
         },
         {
             name: "pencil",
             nameRussian: "карандаш",
-            source: "./images/school/pencil.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/school/pencil.jpg"
         },
         {
             name: "scissors",
             nameRussian: "ножницы",
-            source: "./images/school/scissors.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/school/scissors.jpg"
         },
         {
             name: "eraser",
             nameRussian: "ластик",
-            source: "./images/school/eraser.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/school/eraser.jpg"
         },
         {
             name: "pencil sharpener",
             nameRussian: "точилка",
-            source: "./images/school/sharpener.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/school/sharpener.jpg"
         },
         {
             name: "clip",
             nameRussian: "скрепка",
-            source: "./images/school/clip.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/school/clip.jpg"
         },
         {
             name: "book",
             nameRussian: "книга",
-            source: "./images/school/book.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/school/book.jpg"
         },
     ],
     nature: [
         {
             name: "forest",
             nameRussian: "лес",
-            source: "./images/nature/forest.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/forest.jpg"
         },
         {
             name: "stick",
             nameRussian: "палка",
-            source: "./images/nature/stick.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/stick.jpg"
         },
         {
             name: "cloud",
             nameRussian: "облако",
-            source: "./images/nature/cloud.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/cloud.jpg"
         },
         {
             name: "snow",
             nameRussian: "снег",
-            source: "./images/nature/snow.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/snow.jpg"
         },
         {
             name: "grass",
             nameRussian: "трава",
-            source: "./images/nature/grass.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/grass.jpg"
         },
         {
             name: "mountain",
             nameRussian: "гора",
-            source: "./images/nature/mountain.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/mountain.jpg"
         },
         {
             name: "lake",
             nameRussian: "озеро",
-            source: "./images/nature/lake.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/lake.jpg"
         },
         {
             name: "river",
             nameRussian: "река",
-            source: "./images/nature/river.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/river.jpg"
         },
         {
             name: "sea",
             nameRussian: "море",
-            source: "./images/nature/sea.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/sea.jpg"
         },
         {
             name: "tree",
             nameRussian: "дерево",
-            source: "./images/nature/tree.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/tree.jpg"
         },
         {
             name: "leaf",
             nameRussian: "лист",
-            source: "./images/nature/leaf.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/leaf.jpg"
         },
         {
             name: "worm",
             nameRussian: "червяк",
-            source: "./images/nature/worm.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/worm.jpg"
         },
         {
             name: "frog",
             nameRussian: "лягушка",
-            source: "./images/nature/frog.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/frog.jpg"
         },
     ],
     containers: [
         {
             name: "purse",
             nameRussian: "сумка",
-            source: "./images/containers/purse.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/purse.jpg"
         },
         {
             name: "sack",
             nameRussian: "мешок",
-            source: "./images/containers/sack.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/sack.jpg"
         },
         {
             name: "box",
             nameRussian: "коробка",
-            source: "./images/containers/box.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/box.jpg"
         },
         {
             name: "wooden box",
             nameRussian: "ящик",
-            source: "./images/containers/woodenBox.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/woodenBox.jpg"
         },
         {
             name: "cart",
             nameRussian: "тележка",
-            source: "./images/containers/cart.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/cart.jpg"
         },
         {
             name: "plastic bag",
             nameRussian: "пакет",
-            source: "./images/containers/plasticBag.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/plasticBag.jpg"
         },
         {
             name: "bucket",
             nameRussian: "ведро",
-            source: "./images/containers/bucket.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/bucket.jpg"
         },
         {
             name: "backpack",
             nameRussian: "рюкзак",
-            source: "./images/containers/backpack.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/backpack.jpg"
         },
     ],
     tools:[
         {
             name: "wrench",
             nameRussian: "гаечный ключ",
-            source: "./images/tools/wrench.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/wrench.jpg"
         },
         {
             name: "screw nut",
             nameRussian: "гайка",
-            source: "./images/tools/screwnut.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/screwnut.jpg"
         },
         {
             name: "bolt",
             nameRussian: "болт",
-            source: "./images/tools/bolt.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/bolt.jpg"
         },
         {
             name: "hoe",
             nameRussian: "тяпка",
-            source: "./images/tools/hoe.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/hoe.jpg"
         },
         {
             name: "rake",
             nameRussian: "грабли",
-            source: "./images/tools/rake.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/rake.jpg"
         },
         {
             name: "pitchfork",
             nameRussian: "вилы",
-            source: "./images/tools/pitchfork.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/pitchfork.jpg"
         },
         {
             name: "screwdriver",
             nameRussian: "отвёртка",
-            source: "./images/tools/screwdriver.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/screwdriver.jpg"
         },
         {
             name: "axe",
             nameRussian: "топор",
-            source: "./images/tools/axe.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/axe.jpg"
         },
         {
             name: "hammer",
             nameRussian: "молоток",
-            source: "./images/tools/hammer.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/hammer.jpg"
         },
         {
             name: "saw",
             nameRussian: "пила",
-            source: "./images/tools/saw.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/saw.jpg"
         },
         {
             name: "shovel",
             nameRussian: "лопата",
-            source: "./images/tools/shovel.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/shovel.jpg"
         },
         {
             name: "nail",
             nameRussian: "гвоздь",
-            source: "./images/tools/nail.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/nail.jpg"
         },
         {
             name: "screw",
             nameRussian: "шуруп",
-            source: "./images/tools/screw.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/screw.jpg"
         },
     ],
     house: [
         {
             name: "clock",
             nameRussian: "часы",
-            source: "./images/house/clock.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/clock.jpg"
         },
         {
             name: "light switch",
             nameRussian: "выключатель света",
-            source: "./images/house/lightswitch.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/lightswitch.jpg"
         },
         {
             name: "chandelier",
             nameRussian: "люстра",
-            source: "./images/house/chandelier.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/chandelier.jpg"
         },
         {
             name: "stairs",
             nameRussian: "лестница",
-            source: "./images/house/stairs.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/stairs.jpg"
         },
         {
             name: "window",
             nameRussian: "окно",
-            source: "./images/house/window.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/window.jpg"
         },
         {
             name: "door",
             nameRussian: "дверь",
-            source: "./images/house/door.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/door.jpg"
         },
         {
             name: "carpet",
             nameRussian: "ковёр",
-            source: "./images/house/carpet.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/carpet.jpg"
         },
         {
             name: "vase",
             nameRussian: "ваза",
-            source: "./images/dishes/vase.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/vase.jpg"
         },
         {
             name: "blanket",
             nameRussian: "одеяло",
-            source: "./images/house/blanket2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/blanket2.jpg"
         },
         {
             name: "pillow",
             nameRussian: "подушка",
-            source: "./images/house/pillow.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/pillow.jpg"
         },
         {
             name: "mattress",
             nameRussian: "матрас",
-            source: "./images/house/mattress2.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/mattress2.jpg"
         },
         {
             name: "sheet",
             nameRussian: "простыня",
-            source: "./images/house/sheet.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/sheet.jpg"
         },
         {
             name: "house",
             nameRussian: "дом",
-            source: "./images/house/house.jpg"
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/house.jpg"
         }
     ],
     body: [
