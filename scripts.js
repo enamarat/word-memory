@@ -2102,12 +2102,15 @@ const changeLanguage = () => {
         localStorage.setItem(`language`, JSON.stringify(language));
         document.querySelector("#hint").textContent = "Подсказка"; 
         
-        if (chosenCategory.english.toLowerCase() == "actions" || chosenCategory.english.toLowerCase() == "poses") {
-            document.querySelector("#clarification").textContent = "Что делает?";
+        if (chosenCategory.english != undefined) {
+            if (chosenCategory.english.toLowerCase() == "actions" || chosenCategory.english.toLowerCase() == "poses") {
+                document.querySelector("#clarification").textContent = "Что делает?";
+            }
+            if (chosenCategory.english.toLowerCase() == "colors") {
+                document.querySelector("#clarification").textContent = "Какой цвет?";
+            }
         }
-        if (chosenCategory.english.toLowerCase() == "colors") {
-            document.querySelector("#clarification").textContent = "Какой цвет?";
-        }
+        
         
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.russian.toUpperCase()}`;
@@ -2119,12 +2122,15 @@ const changeLanguage = () => {
         localStorage.setItem(`language`, JSON.stringify(language));
         document.querySelector("#hint").textContent = "Hint";
         
-        if (chosenCategory.english.toLowerCase() == "actions" || chosenCategory.english.toLowerCase() == "poses") {
-            document.querySelector("#clarification").textContent = "What is it/he/she doing?";
+        if (chosenCategory.english != undefined) {
+            if (chosenCategory.english.toLowerCase() == "actions" || chosenCategory.english.toLowerCase() == "poses") {
+                document.querySelector("#clarification").textContent = "What is it/he/she doing?";
+            }
+            if (chosenCategory.english.toLowerCase() == "colors") {
+                document.querySelector("#clarification").textContent = "What color is it?";
+            }
         }
-        if (chosenCategory.english.toLowerCase() == "colors") {
-            document.querySelector("#clarification").textContent = "What color is it?";
-        }
+       
         
         if (stage == "question" || stage == "questionAccepted") {
             document.querySelector("#category").textContent = `${chosenCategory.english.toUpperCase()}`;
