@@ -693,7 +693,7 @@ const images = {
     ],
     vegetables: [
         {
-            name: "marrow",
+            name: "vegetable marrow",
             nameRussian: "кабачок",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/marrow.jpg"
         },
