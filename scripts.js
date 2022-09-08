@@ -2082,16 +2082,18 @@ const checkExercise = () => {
         answer = chosenSection[count].nameRussian;
     }
     
-    if (answer == userInput) {
-        // next exercise
-        document.querySelector("#checkButton").style.display = "none";
-        document.querySelector("#nextButton").style.display = "block";
-        stage = "questionAccepted";
-        changeImage();
-    } else {
-        document.querySelector("#status").style.display = "block";
-        document.querySelector("#hint").style.display = "block";
-        document.querySelector("#imageNameInput").value = "";
+    if (userInput.length != 0) {
+        if (answer == userInput) {
+            // next exercise
+            document.querySelector("#checkButton").style.display = "none";
+            document.querySelector("#nextButton").style.display = "block";
+            stage = "questionAccepted";
+            changeImage();
+        } else {
+            document.querySelector("#status").style.display = "block";
+            document.querySelector("#hint").style.display = "block";
+            document.querySelector("#imageNameInput").value = "";
+        }
     }
 }
 
