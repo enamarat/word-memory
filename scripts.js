@@ -1722,6 +1722,11 @@ const images = {
     ],
     food: [
         {
+            name: "chocolate",
+            nameRussian: "шоколад",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/chocolate.jpg"
+        },
+        {
             name: "cheese",
             nameRussian: "сыр",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/cheese.jpg"
