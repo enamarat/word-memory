@@ -1164,6 +1164,11 @@ const images = {
     ],
     nature: [
         {
+            name: "fire",
+            nameRussian: "огонь",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/fire.jpg"
+        },
+        {
             name: "mushroom",
             nameRussian: "гриб",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/mushroom.jpg"
