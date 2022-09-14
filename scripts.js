@@ -1539,6 +1539,11 @@ const images = {
     ],
     yard: [
         {
+            name: "racket",
+            nameRussian: "ракетка",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/racket.jpg"
+        },
+        {
             name: "ball",
             nameRussian: "мяч",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/yard/ball.jpg"
