@@ -1737,6 +1737,11 @@ const images = {
     ],
     food: [
         {
+            name: "candy",
+            nameRussian: "конфета",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/candy.jpg"
+        },
+        {
             name: "chocolate",
             nameRussian: "шоколад",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/chocolate.jpg"
@@ -1879,6 +1884,11 @@ const images = {
         }
     ],
     actions: [
+        {
+            name: "hugging",
+            nameRussian: "обнимает",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/hugging.gif"
+        },
         {
             name: "drinking",
             nameRussian: "пьёт",
