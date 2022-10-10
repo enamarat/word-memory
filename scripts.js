@@ -1179,6 +1179,11 @@ const images = {
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/sun.jpg"
         },
         {
+            name: "nut",
+            nameRussian: "орех",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/nut.jpg"
+        },
+        {
             name: "lightning",
             nameRussian: "молния",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/lightning.jpg"
