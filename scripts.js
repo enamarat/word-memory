@@ -35,6 +35,11 @@ let completedSections = {};
 const images = {
     animals: [
         {
+            name: "moose",
+            nameRussian: "лось",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/moose.jpg"
+        },
+        {
             name: "koala",
             nameRussian: "коала",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/koala.jpg"
@@ -1380,6 +1385,11 @@ const images = {
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/clock.jpg"
         },
         {
+            name: "candle",
+            nameRussian: "свеча",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/candle.jpg"
+        },
+        {
             name: "light switch",
             nameRussian: "выключатель света",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/lightswitch.jpg"
@@ -1762,6 +1772,11 @@ const images = {
     ],
     food: [
         {
+            name: "cake",
+            nameRussian: "торт",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/cake.jpg"
+        },
+        {
             name: "candy",
             nameRussian: "конфета",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/candy.jpg"
@@ -1770,6 +1785,16 @@ const images = {
             name: "chocolate",
             nameRussian: "шоколад",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/chocolate.jpg"
+        },
+        {
+            name: "cutlet",
+            nameRussian: "котлета",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/cutlet.jpg"
+        },
+        {
+            name: "soup",
+            nameRussian: "суп",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/food/soup.jpg"
         },
         {
             name: "cheese",
