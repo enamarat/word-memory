@@ -2052,7 +2052,7 @@ const showSections = () => {
     //localStorage.clear();
     completedSections = JSON.parse(localStorage.getItem('completedSections'));
     const chosenLanguage = JSON.parse(localStorage.getItem('language'));
-    if (chosenLanguage != null) {
+    if (chosenLanguage != undefined) {
         language = chosenLanguage;
     } else {
         language = "english"
