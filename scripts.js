@@ -2052,7 +2052,8 @@ const showSections = () => {
     //localStorage.clear();
     completedSections = JSON.parse(localStorage.getItem('completedSections'));
     const chosenLanguage = JSON.parse(localStorage.getItem('language'));
-    if (chosenLanguage != undefined) {
+    console.log(chosenLanguage);
+    if (chosenLanguage != null) {
         language = chosenLanguage;
     } else {
         language = "english"
