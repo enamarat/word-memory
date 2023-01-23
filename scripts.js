@@ -35,6 +35,11 @@ let completedSections = {};
 const images = {
     animals: [
         {
+            name: "sheep",
+            nameRussian: "овца",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/sheep.jpg"
+        },
+        {
             name: "moose",
             nameRussian: "лось",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/moose.jpg"
