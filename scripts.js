@@ -35,6 +35,11 @@ let completedSections = {};
 const images = {
     animals: [
         {
+            name: "beaver",
+            nameRussian: "бобёр",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/beaver.jpg"
+        },
+        {
             name: "sheep",
             nameRussian: "овца",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/sheep.jpg"
@@ -1710,6 +1715,11 @@ const images = {
     ],
     pocket: [
         {
+            name: "headphones",
+            nameRussian: "наушники",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/headphones.jpg"
+        },
+        {
             name: "glasses",
             nameRussian: "очки",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/glasses.jpg"
@@ -1936,7 +1946,12 @@ const images = {
             name: "standing",
             nameRussian: "стоит",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/poses/standing.jpg"
-        }
+        },
+        {
+            name: "sleeping",
+            nameRussian: "спит",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/poses/sleeping.jpg"
+        },
     ],
     actions: [
         {
