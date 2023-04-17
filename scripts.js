@@ -35,6 +35,21 @@ let completedSections = {};
 const images = {
     animals: [
         {
+            name: "donkey",
+            nameRussian: "осёл",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/donkey.jpg"
+        },
+        {
+            name: "mole",
+            nameRussian: "крот",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/mole.jpg"
+        },
+        {
+            name: "bat",
+            nameRussian: "летучая мышь",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/bat.jpg"
+        },
+        {
             name: "beaver",
             nameRussian: "бобёр",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/beaver.jpg"
@@ -506,6 +521,11 @@ const images = {
         },
     ],
     furniture: [
+        {
+            name: "bench",
+            nameRussian: "скамейка",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/furniture/bench.jpg"
+        },
         {
             name: "bed",
             nameRussian: "кровать",
@@ -1322,6 +1342,11 @@ const images = {
         },
     ],
     tools:[
+        {
+            name: "brush",
+            nameRussian: "кисточка",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/tools/brush.jpg"
+        },
         {
             name: "wrench",
             nameRussian: "гаечный ключ",
