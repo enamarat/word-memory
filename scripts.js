@@ -222,6 +222,11 @@ const images = {
     ],
     insects: [
         {
+            name: "caterpillar",
+            nameRussian: "гусеница",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/caterpillar.jpg"
+        },
+        {
             name: "colorado beetle",
             nameRussian: "колорадский жук",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/coloradobeetle.jpg"
@@ -1306,6 +1311,11 @@ const images = {
     ],
     containers: [
         {
+            name: "briefcase",
+            nameRussian: "портфель",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/briefcase.jpg"
+        },
+        {
             name: "purse",
             nameRussian: "сумка",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/containers/purse.jpg"
@@ -1989,6 +1999,11 @@ const images = {
         },
     ],
     actions: [
+        {
+            name: "brushing teeth",
+            nameRussian: "чистит зубы",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/brushingteeth.gif"
+        },
         {
             name: "hugging",
             nameRussian: "обнимает",
