@@ -45,6 +45,11 @@ const images = {
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/mole.jpg"
         },
         {
+            name: "hamster",
+            nameRussian: "хомяк",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/hamster.jpg"
+        },
+        {
             name: "bat",
             nameRussian: "летучая мышь",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/animals/bat.jpg"
@@ -1204,6 +1209,36 @@ const images = {
     ],
     nature: [
         {
+            name: "stone",
+            nameRussian: "камень",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/stone.jpg"
+        },
+        {
+            name: "sand",
+            nameRussian: "песок",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/sand.jpg"
+        },
+        {
+            name: "desert",
+            nameRussian: "пустыня",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/desert.jpg"
+        },
+        {
+            name: "volcano",
+            nameRussian: "вулкан",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/volcano.jpg"
+        },
+        {
+            name: "lava",
+            nameRussian: "лава",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/lava.jpg"
+        },
+        {
+            name: "cactus",
+            nameRussian: "кактус",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/cactus.jpg"
+        },
+        {
             name: "rain",
             nameRussian: "дождь",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/rain.jpg"
@@ -1999,6 +2034,11 @@ const images = {
         },
     ],
     actions: [
+        {
+            name: "washing hands",
+            nameRussian: "моет руки",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/washinghands.gif"
+        },
         {
             name: "brushing teeth",
             nameRussian: "чистит зубы",
