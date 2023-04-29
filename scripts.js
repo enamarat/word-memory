@@ -227,6 +227,11 @@ const images = {
     ],
     insects: [
         {
+            name: "snail",
+            nameRussian: "улитка",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/snail.jpg"
+        },
+        {
             name: "caterpillar",
             nameRussian: "гусеница",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/insects/caterpillar.jpg"
