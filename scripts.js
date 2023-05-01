@@ -1214,6 +1214,11 @@ const images = {
     ],
     nature: [
         {
+            name: "octopus",
+            nameRussian: "осьминог",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/octopus.jpg"
+        },
+        {
             name: "stone",
             nameRussian: "камень",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/nature/stone.jpg"
