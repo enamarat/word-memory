@@ -470,6 +470,11 @@ const images = {
     ],
     transport: [
         {
+            name: "wheel",
+            nameRussian: "колесо",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/wheel.jpg"
+        },
+        {
             name: "boat",
             nameRussian: "лодка",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/transport/boat.jpg"
@@ -1547,6 +1552,16 @@ const images = {
     ],
     body: [
         {
+            name: "mustache",
+            nameRussian: "усы",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/mustache.jpg"
+        },
+        {
+            name: "beard",
+            nameRussian: "борода",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/beard.jpg"
+        },
+        {
             name: "hair",
             nameRussian: "волосы",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/body/hair2.jpg"
@@ -1800,6 +1815,11 @@ const images = {
     ],
     pocket: [
         {
+            name: "ring",
+            nameRussian: "кольцо",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/ring.jpg"
+        },
+        {
             name: "headphones",
             nameRussian: "наушники",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/pocket/headphones.jpg"
@@ -2044,6 +2064,41 @@ const images = {
         },
     ],
     actions: [
+        {
+            name: "smiling",
+            nameRussian: "улыбается",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/smiling.gif"
+        },
+        {
+            name: "laughing",
+            nameRussian: "смеётся",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/laughing.gif"
+        },
+        {
+            name: "crying",
+            nameRussian: "плачет",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/crying.gif"
+        },
+        {
+            name: "screaming",
+            nameRussian: "кричит",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/screaming.gif"
+        },
+        {
+            name: "being scared",
+            nameRussian: "боится",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/being_scared.gif"
+        },
+        {
+            name: "sneezing",
+            nameRussian: "чихает",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/sneezing.gif"
+        },
+        {
+            name: "speaking",
+            nameRussian: "говорит",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/speaking.gif"
+        },
         {
             name: "washing hands",
             nameRussian: "моет руки",
