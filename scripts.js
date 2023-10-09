@@ -316,6 +316,16 @@ const images = {
     ],
     birds: [
         {
+            name: "owl",
+            nameRussian: "сова",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/owl.jpg"
+        },
+        {
+            name: "heron",
+            nameRussian: "цапля",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/heron.jpg"
+        },
+        {
             name: "chicken",
             nameRussian: "курица",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/birds/chicken.jpg"
@@ -747,6 +757,11 @@ const images = {
         }
     ],
     vegetables: [
+        {
+            name: "pea",
+            nameRussian: "горох",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/vegetables/pea.jpg"
+        },
         {
             name: "vegetable marrow",
             nameRussian: "кабачок",
@@ -1480,6 +1495,11 @@ const images = {
     ],
     house: [
         {
+            name: "mirror",
+            nameRussian: "зеркало",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/mirror.jpg"
+        },
+        {
             name: "clock",
             nameRussian: "часы",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/house/clock.jpg"
@@ -2010,6 +2030,21 @@ const images = {
         },
     ],
     flowers: [
+        {
+            name: "clover",
+            nameRussian: "клевер",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/flowers/clover.jpg"
+        },
+        {
+            name: "lily of the valley",
+            nameRussian: "ландыш",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/flowers/lilyofthevalley.jpg"
+        },
+        {
+            name: "lily",
+            nameRussian: "лилия",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/flowers/lily.jpg"
+        },
         {
             name: "rose",
             nameRussian: "роза",
