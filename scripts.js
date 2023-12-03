@@ -2344,7 +2344,7 @@ const images = {
         },
         {
             name: "brown triangle",
-            nameRussian: "коричнеый треугольник",
+            nameRussian: "коричневый треугольник",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/browntriangle.png"
         },
         {
