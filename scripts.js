@@ -2424,7 +2424,7 @@ const images = {
         },
         {
             name: "gray circle",
-            nameRussian: "серый треугольник",
+            nameRussian: "серый круг",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/graycircle.png"
         },
         {
