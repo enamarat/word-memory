@@ -30,6 +30,7 @@ const sections = [
     {english: "Body", russian: "Тело"},
     {english: "Poses", russian: "Позы"},
     {english: "Actions", russian: "Действия"},
+    {english: "Describe", russian: "Опиши"},
 ];
 let completedSections = {};
 const images = {
@@ -1093,6 +1094,11 @@ const images = {
     ],
     colors: [
         {
+            name: "azure",
+            nameRussian: "голубой",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/azure.png"
+        },
+        {
             name: "green",
             nameRussian: "зелёный",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/colors/green.jpg"
@@ -1999,6 +2005,11 @@ const images = {
     ],
     shapes: [
         {
+            name: "star",
+            nameRussian: "звезда",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shapes/star.png"
+        },
+        {
             name: "circle",
             nameRussian: "круг",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/shapes/circle.png"
@@ -2249,6 +2260,188 @@ const images = {
             nameRussian: "снимает",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/actions/takingoff2.gif"
         },
+    ],
+    describe: [
+        {
+            name: "black square",
+            nameRussian: "чёрный квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/blacksquare.png"
+        },
+        {
+            name: "blue circle",
+            nameRussian: "синий круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/bluecircle.png"
+        },
+        {
+            name: "yellow triangle",
+            nameRussian: "жёлтый треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/yellowtriangle.png"
+        },
+        {
+            name: "pinksquare",
+            nameRussian: "розовый квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/pinksquare.png"
+        },
+        {
+            name: "red triangle",
+            nameRussian: "красный треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/redtriangle.png"
+        },
+        {
+            name: "brown circle",
+            nameRussian: "коричневый круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/browncircle.png"
+        },
+        {
+            name: "azure triangle",
+            nameRussian: "голубой треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/azuretriangle.png"
+        },
+        {
+            name: "green circle",
+            nameRussian: "зелёный круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/greencircle.png"
+        },
+        {
+            name: "purple square",
+            nameRussian: "фиолетовый квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/purplesquare.png"
+        },
+        {
+            name: "white circle",
+            nameRussian: "белый круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/whitecircle.png"
+        },
+        {
+            name: "orange triangle",
+            nameRussian: "оранжевый треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/orangetriangle.png"
+        },
+        {
+            name: "gray square",
+            nameRussian: "серый квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/graysquare.png"
+        },
+        {
+            name: "azure circle",
+            nameRussian: "голубой круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/azurecircle.png"
+        },
+        {
+            name: "yellow square",
+            nameRussian: "жёлтый квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/yellowsquare.png"
+        },
+        {
+            name: "black triangle",
+            nameRussian: "чёрный треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/blacktriangle.png"
+        },
+        {
+            name: "blue square",
+            nameRussian: "синий квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/bluesquare.png"
+        },
+        {
+            name: "brown triangle",
+            nameRussian: "коричнеый треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/browntriangle.png"
+        },
+        {
+            name: "pink circle",
+            nameRussian: "розовый круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/pinkcircle.png"
+        },
+        {
+            name: "gray triangle",
+            nameRussian: "серый треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/graytriangle.png"
+        },
+        {
+            name: "brown square",
+            nameRussian: "коричневый квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/brownsquare.png"
+        },
+        {
+            name: "yellow circle",
+            nameRussian: "жёлтый круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/yellowcircle.png"
+        },
+        {
+            name: "white square",
+            nameRussian: "белый квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/whitesquare.png"
+        },
+        {
+            name: "blue triangle",
+            nameRussian: "синий треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/bluetriangle.png"
+        },
+        {
+            name: "black circle",
+            nameRussian: "чёрный круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/blackcircle.png"
+        },
+        {
+            name: "red circle",
+            nameRussian: "красный круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/redcircle.png"
+        },
+        {
+            name: "purple triangle",
+            nameRussian: "фиолетовый треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/purpletriangle.png"
+        },
+        {
+            name: "orange square",
+            nameRussian: "оранжевый квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/orangesquare.png"
+        },
+        {
+            name: "green triangle",
+            nameRussian: "зелёный треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/greentriangle.png"
+        },
+        {
+            name: "orange circle",
+            nameRussian: "оранжевый круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/orangecircle.png"
+        },
+        {
+            name: "azure square",
+            nameRussian: "голубой квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/azuresquare.png"
+        },
+        {
+            name: "green square",
+            nameRussian: "зелёный квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/greensquare.png"
+        },
+        {
+            name: "white triangle",
+            nameRussian: "белый треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/whitetriangle.png"
+        },
+        {
+            name: "gray circle",
+            nameRussian: "серый треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/graycircle.png"
+        },
+        {
+            name: "pink triangle",
+            nameRussian: "розовый треугольник",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/pinktriangle.png"
+        },
+        {
+            name: "purple circle",
+            nameRussian: "фиолетовый круг",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/purplecircle.png"
+        },
+        {
+            name: "red square",
+            nameRussian: "красный квадрат",
+            source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/redsquare.png"
+        }
     ]
 };
 let chosenSection = "";
