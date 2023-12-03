@@ -2278,7 +2278,7 @@ const images = {
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/yellowtriangle.png"
         },
         {
-            name: "pinksquare",
+            name: "pink square",
             nameRussian: "розовый квадрат",
             source: "https://raw.githubusercontent.com/enamarat/word-memory/main/images/describe/pinksquare.png"
         },
